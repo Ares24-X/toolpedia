@@ -1,0 +1,73 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { siteConfig } from '../../../i18n/translations';
+import { articles } from '../../../data/articles';
+import content from '../../../data/article-content.json';
+
+export function getStaticPaths() {
+  const locales = ['en', 'ja', 'de', 'es'];
+  const paths = [];
+  for (const locale of locales) {
+    for (const article of articles) {
+      paths.push({ params: { locale, pillar: article.pillar, slug: article.slug }, props: { locale, article } });
+    }
+  }
+  return paths;
+}
+
+const { locale, article } = Astro.props;
+const t = siteConfig[locale];
+const contentBlocks = (content as Record<string, Record<string, string>>)[article.slug] || {};
+const bodyHtml = contentBlocks[locale] || '<p>Content coming soon.</p>';
+
+const alternates = ['en', 'ja', 'de', 'es']
+  .filter(l => l !== locale)
+  .map(l => ({
+    lang: l,
+    href: `https://toolpedia.win/${l}/${article.pillar}/${article.slug}/`,
+  }));
+
+const related = articles
+  .filter(a => a.pillar === article.pillar && a.slug !== article.slug)
+  .slice(0, 3);
+---
+
+<BaseLayout locale={locale} title={article.title[locale]} description={article.description[locale]} lang={locale} alternate={alternates}>
+  <article>
+    <div style="margin-bottom:20px">
+      <span class="tag">{article.pillar}</span>
+      <span style="color:#888;font-size:0.85rem;margin-left:8px">{article.published}</span>
+    </div>
+
+    <h1>{article.title[locale]}</h1>
+    <p style="font-size:1.05rem;color:#555;margin-bottom:32px">{article.description[locale]}</p>
+
+    <div style="background:#fff;padding:32px;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,0.08)">
+      <Fragment set:html={bodyHtml} />
+    </div>
+
+    {article.linkTool && (
+      <div class="cta-box">
+        {article.linkTool === 'pixelpdf' ? (
+          <p>Try it yourself: <a href="https://pixelpdf.win" target="_blank">pixelpdf.win</a> — free online PDF tools, no sign-up required.</p>
+        ) : (
+          <p>Try it yourself: <a href="https://exdreamcolors.win" target="_blank">exdreamcolors.win</a> — color tools for designers and developers.</p>
+        )}
+      </div>
+    )}
+  </article>
+
+  {related.length > 0 && (
+    <section style="margin-top:48px">
+      <h2>{t.related}</h2>
+      <div style="display:grid;gap:12px">
+        {related.map(r => (
+          <a href={`/${locale}/${r.pillar}/${r.slug}/`} style="display:block;background:#fff;padding:16px;border-radius:8px;text-decoration:none;box-shadow:0 1px 3px rgba(0,0,0,0.06);color:#1a1a2e">
+            <strong>{r.title[locale]}</strong>
+            <div style="font-size:0.85rem;color:#888;margin-top:4px">{r.description[locale]}</div>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+</BaseLayout>

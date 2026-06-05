@@ -1,0 +1,44 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { siteConfig } from '../../../i18n/translations';
+import { articles } from '../../../data/articles';
+export function getStaticPaths() {
+  const pillars = ['reviews', 'tutorials', 'pdf', 'design', 'trends'];
+  const locales = ['en', 'ja', 'de', 'es'];
+  const paths = [];
+  for (const locale of locales) {
+    for (const pillar of pillars) {
+      const filtered = articles.filter(a => a.pillar === pillar);
+      paths.push({ params: { locale, pillar }, props: { locale, pillar, articles: filtered } });
+    }
+  }
+  return paths;
+}
+const { locale, pillar, articles: pillarArticles } = Astro.props;
+const t = siteConfig[locale];
+const pillarNames: Record<string, string> = {
+  reviews: t.nav.reviews,
+  tutorials: t.nav.tutorials,
+  pdf: t.nav.pdf,
+  design: t.nav.design,
+  trends: t.nav.trends,
+};
+---
+
+<BaseLayout locale={locale} title={`${pillarNames[pillar]} — ToolPedia`} description={`${pillarNames[pillar]} — honest reviews, comparisons and tutorials.`}>
+  <h1>{pillarNames[pillar]}</h1>
+  <p style="color:#555;margin-bottom:24px">Articles in this category</p>
+
+  {pillarArticles.length === 0 && <p>No articles yet. Coming soon!</p>}
+
+  {pillarArticles.map(article => (
+    <div class="article-card">
+      <div class="article-meta">
+        {article.linkTool && <span class="tag" style="background:#fef3e2;color:#d97706">{article.linkTool === 'pixelpdf' ? '→ pixelpdf' : '→ exdreamcolors'}</span>}
+        {article.published}
+      </div>
+      <h2><a href={`/${locale}/${article.pillar}/${article.slug}/`}>{article.title[locale]}</a></h2>
+      <p>{article.description[locale]}</p>
+    </div>
+  ))}
+</BaseLayout>

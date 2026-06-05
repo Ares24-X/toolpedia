@@ -1,0 +1,52 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { siteConfig } from '../../i18n/translations';
+import { getRecentArticles, articles } from '../../data/articles';
+
+export function getStaticPaths() {
+  const locales = ['en', 'ja', 'de', 'es'];
+  return locales.map(locale => ({
+    params: { locale },
+    props: { locale },
+  }));
+}
+
+const { locale } = Astro.props;
+const t = siteConfig[locale];
+const recent = getRecentArticles(7);
+const pillars = ['reviews', 'tutorials', 'pdf', 'design', 'trends'];
+const pillarNames: Record<string, string> = {
+  reviews: t.nav.reviews, tutorials: t.nav.tutorials, pdf: t.nav.pdf,
+  design: t.nav.design, trends: t.nav.trends,
+};
+---
+
+<BaseLayout locale={locale} title={t.siteTitle} description={t.siteDesc}>
+  <section style="text-align:center;padding:40px 0 20px">
+    <h1>{t.siteTitle}</h1>
+    <p style="font-size:1.1rem;color:#555;max-width:600px;margin:0 auto">{t.siteDesc}</p>
+  </section>
+  <section style="margin:32px 0">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px">
+      {pillars.map(p => (
+        <a href={`/${locale}/${p}/`} style="display:block;background:#fff;padding:20px;border-radius:8px;text-align:center;text-decoration:none;box-shadow:0 1px 3px rgba(0,0,0,0.08)">
+          <div style="font-size:1.5rem;font-weight:700;color:#1a1a2e">{pillarNames[p]}</div>
+          <div style="font-size:0.85rem;color:#888;margin-top:4px">{articles.filter(a => a.pillar === p).length} articles</div>
+        </a>
+      ))}
+    </div>
+  </section>
+  <section>
+    <h2>Latest Articles</h2>
+    {recent.map(article => (
+      <div class="article-card">
+        <div class="article-meta">
+          <span class="tag">{article.pillar}</span>
+          {article.published}
+        </div>
+        <h2><a href={`/${locale}/${article.pillar}/${article.slug}/`}>{article.title[locale]}</a></h2>
+        <p>{article.description[locale]}</p>
+      </div>
+    ))}
+  </section>
+</BaseLayout>
