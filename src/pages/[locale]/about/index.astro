@@ -1,0 +1,56 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { siteConfig } from '../../../i18n/translations';
+
+export function getStaticPaths() {
+  const locales = ['en', 'ja', 'de', 'es'];
+  return locales.map(locale => ({ params: { locale }, props: { locale } }));
+}
+
+const { locale } = Astro.props;
+const t = siteConfig[locale];
+
+const content: Record<string, { title: string; body: string[] }> = {
+  en: {
+    title: 'About ToolPedia',
+    body: [
+      'ToolPedia is an independent resource site dedicated to helping you find the best free online tools. We publish honest reviews, side-by-side comparisons, and step-by-step tutorials — no fluff, just what works.',
+      'Every tool we review is tested hands-on. We compare features, pricing, ease of use, and real-world performance so you can make informed decisions without wasting time.',
+      'Some links on this site are affiliate links. If you click and make a purchase, we may earn a small commission at no extra cost to you. This helps us keep the site running and the content free.',
+    ],
+  },
+  ja: {
+    title: 'ToolPediaについて',
+    body: [
+      'ToolPediaは、最高の無料オンラインツールを見つけるお手伝いをする独立したリソースサイトです。正直なレビュー、比較、チュートリアルを公開しています。',
+      'レビューするすべてのツールは実際にテストしています。機能、価格、使いやすさを比較し、情報に基づいた判断ができるようにします。',
+      '一部のリンクはアフィリエイトリンクです。これによりサイト運営を維持しています。',
+    ],
+  },
+  de: {
+    title: 'Über ToolPedia',
+    body: [
+      'ToolPedia ist eine unabhängige Ressourcenseite, die Ihnen hilft, die besten kostenlosen Online-Tools zu finden. Wir veröffentlichen ehrliche Bewertungen, Vergleiche und Schritt-für-Schritt-Anleitungen.',
+      'Jedes getestete Tool wird praktisch geprüft. Wir vergleichen Funktionen, Preise und Benutzerfreundlichkeit.',
+      'Einige Links sind Affiliate-Links. So finanzieren wir den Betrieb der Seite.',
+    ],
+  },
+  es: {
+    title: 'Acerca de ToolPedia',
+    body: [
+      'ToolPedia es un sitio de recursos independiente dedicado a ayudarle a encontrar las mejores herramientas gratuitas en línea. Publicamos reseñas honestas, comparativas y tutoriales.',
+      'Cada herramienta que reseñamos es probada personalmente. Comparamos características, precios y facilidad de uso.',
+      'Algunos enlaces son de afiliados. Esto nos ayuda a mantener el sitio funcionando.',
+    ],
+  },
+};
+
+const c = content[locale] || content.en;
+---
+
+<BaseLayout locale={locale} title={`${c.title} — ToolPedia`} description={c.title}>
+  <article style="max-width:720px;margin:0 auto;padding:24px 0">
+    <h1>{c.title}</h1>
+    {c.body.map(p => <p>{p}</p>)}
+  </article>
+</BaseLayout>

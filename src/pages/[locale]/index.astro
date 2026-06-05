@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { siteConfig } from '../../i18n/translations';
-import { getRecentArticles, articles } from '../../data/articles';
+import { getRecentArticles, articles, pillarConfig } from '../../data/articles';
 
 export function getStaticPaths() {
   const locales = ['en', 'ja', 'de', 'es'];
@@ -13,40 +13,70 @@ export function getStaticPaths() {
 
 const { locale } = Astro.props;
 const t = siteConfig[locale];
-const recent = getRecentArticles(7);
+const recent = getRecentArticles(4);
 const pillars = ['reviews', 'tutorials', 'pdf', 'design', 'trends'];
 const pillarNames: Record<string, string> = {
   reviews: t.nav.reviews, tutorials: t.nav.tutorials, pdf: t.nav.pdf,
   design: t.nav.design, trends: t.nav.trends,
 };
+const pillarCounts: Record<string, number> = {};
+pillars.forEach(p => { pillarCounts[p] = articles.filter(a => a.pillar === p).length; });
 ---
 
 <BaseLayout locale={locale} title={t.siteTitle} description={t.siteDesc}>
-  <section style="text-align:center;padding:40px 0 20px">
-    <h1>{t.siteTitle}</h1>
-    <p style="font-size:1.1rem;color:#555;max-width:600px;margin:0 auto">{t.siteDesc}</p>
-  </section>
-  <section style="margin:32px 0">
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px">
-      {pillars.map(p => (
-        <a href={`/${locale}/${p}/`} style="display:block;background:#fff;padding:20px;border-radius:8px;text-align:center;text-decoration:none;box-shadow:0 1px 3px rgba(0,0,0,0.08)">
-          <div style="font-size:1.5rem;font-weight:700;color:#1a1a2e">{pillarNames[p]}</div>
-          <div style="font-size:0.85rem;color:#888;margin-top:4px">{articles.filter(a => a.pillar === p).length} articles</div>
+  <!-- Hero -->
+  <section style="padding:48px 0 32px;text-align:center">
+    <h1 style="font-size:2.5rem;margin-bottom:8px">{t.hero.title}</h1>
+    <p style="font-size:1.1rem;color:#64748b;max-width:560px;margin:0 auto 24px;line-height:1.6">
+      {t.hero.subtitle}
+    </p>
+    <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+      {pillars.filter(p => pillarCounts[p] > 0).slice(0, 3).map(p => (
+        <a href={`/${locale}/${p}/`} class="btn btn-primary" style="font-size:.85rem;padding:10px 16px">
+          {pillarConfig[p].icon} {pillarNames[p]}
         </a>
       ))}
     </div>
   </section>
+
+  <!-- Category Grid -->
+  <section style="margin:32px 0">
+    <h2 style="margin-bottom:16px">{t.browseCategories}</h2>
+    <div class="cat-grid">
+      {pillars.map(p => (
+        <a href={`/${locale}/${p}/`} class="cat-card" style={pillarCounts[p] === 0 ? 'opacity:.5' : ''}>
+          <div class="icon">{pillarConfig[p].icon}</div>
+          <div class="name">{pillarNames[p]}</div>
+          <div class="count">{pillarCounts[p]} {t.articles}</div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Latest Articles -->
   <section>
-    <h2>Latest Articles</h2>
-    {recent.map(article => (
-      <div class="article-card">
-        <div class="article-meta">
-          <span class="tag">{article.pillar}</span>
-          {article.published}
+    <h2 style="margin-bottom:16px">{t.latestArticles}</h2>
+    {recent.length === 0 ? (
+      <p style="color:#94a3b8">{t.noArticles}</p>
+    ) : (
+      recent.map(article => (
+        <div class="article-card">
+          <div class="article-meta">
+            <span class="tag" style="background:{pillarConfig[article.pillar].bg};color:{pillarConfig[article.pillar].color}">
+              {pillarConfig[article.pillar].icon} {pillarNames[article.pillar]}
+            </span>
+            <span>{article.published}</span>
+          </div>
+          <h2><a href={`/${locale}/${article.pillar}/${article.slug}/`}>{article.title[locale]}</a></h2>
+          <p>{article.description[locale]}</p>
         </div>
-        <h2><a href={`/${locale}/${article.pillar}/${article.slug}/`}>{article.title[locale]}</a></h2>
-        <p>{article.description[locale]}</p>
+      ))
+    )}
+
+    {articles.length > 4 && (
+      <div style="text-align:center;margin-top:20px">
+        <a href={`/${locale}/reviews/`} class="btn btn-outline">← {t.readMore}</a>
       </div>
-    ))}
+    )}
   </section>
 </BaseLayout>

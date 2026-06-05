@@ -1,7 +1,8 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { siteConfig } from '../../../i18n/translations';
-import { articles } from '../../../data/articles';
+import { articles, pillarConfig } from '../../../data/articles';
+
 export function getStaticPaths() {
   const pillars = ['reviews', 'tutorials', 'pdf', 'design', 'trends'];
   const locales = ['en', 'ja', 'de', 'es'];
@@ -14,31 +15,51 @@ export function getStaticPaths() {
   }
   return paths;
 }
+
 const { locale, pillar, articles: pillarArticles } = Astro.props;
 const t = siteConfig[locale];
+const cfg = pillarConfig[pillar];
 const pillarNames: Record<string, string> = {
-  reviews: t.nav.reviews,
-  tutorials: t.nav.tutorials,
-  pdf: t.nav.pdf,
-  design: t.nav.design,
-  trends: t.nav.trends,
+  reviews: t.nav.reviews, tutorials: t.nav.tutorials, pdf: t.nav.pdf,
+  design: t.nav.design, trends: t.nav.trends,
 };
+const pageTitle = `${cfg.icon} ${pillarNames[pillar]} — ToolPedia`;
+const pageDesc = `${t.siteDesc}`;
 ---
 
-<BaseLayout locale={locale} title={`${pillarNames[pillar]} — ToolPedia`} description={`${pillarNames[pillar]} — honest reviews, comparisons and tutorials.`}>
-  <h1>{pillarNames[pillar]}</h1>
-  <p style="color:#555;margin-bottom:24px">Articles in this category</p>
+<BaseLayout locale={locale} title={pageTitle} description={pageDesc}>
+  <div class="pillar-header">
+    <h1>
+      <span class="pillar-icon">{cfg.icon}</span>
+      {pillarNames[pillar]}
+    </h1>
+  </div>
 
-  {pillarArticles.length === 0 && <p>No articles yet. Coming soon!</p>}
-
-  {pillarArticles.map(article => (
-    <div class="article-card">
-      <div class="article-meta">
-        {article.linkTool && <span class="tag" style="background:#fef3e2;color:#d97706">{article.linkTool === 'pixelpdf' ? '→ pixelpdf' : '→ exdreamcolors'}</span>}
-        {article.published}
-      </div>
-      <h2><a href={`/${locale}/${article.pillar}/${article.slug}/`}>{article.title[locale]}</a></h2>
-      <p>{article.description[locale]}</p>
+  {pillarArticles.length === 0 ? (
+    <div class="card" style="text-align:center;padding:40px;color:#94a3b8">
+      <p style="font-size:1.1rem">{t.noArticles}. Check back soon!</p>
     </div>
-  ))}
+  ) : (
+    <div class="articles-list">
+      {pillarArticles.map(article => (
+        <a href={`/${locale}/${pillar}/${article.slug}/`} style="text-decoration:none;display:block">
+          <div class="article-card">
+            <div class="article-meta">
+              <span class="tag" style="background:{cfg.bg};color:{cfg.color}">
+                {cfg.icon} {pillarNames[pillar]}
+              </span>
+              <span>{article.published}</span>
+            </div>
+            <h2>{article.title[locale]}</h2>
+            <p>{article.description[locale]}</p>
+            <div style="margin-top:10px;display:flex;gap:8px;flex-wrap:wrap">
+              {article.tags.slice(0, 4).map(tag => (
+                <span style="font-size:.7rem;color:#94a3b8;background:#f1f5f9;padding:2px 8px;border-radius:4px">#{tag}</span>
+              ))}
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+  )}
 </BaseLayout>

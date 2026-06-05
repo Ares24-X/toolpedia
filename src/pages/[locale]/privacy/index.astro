@@ -1,0 +1,74 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { siteConfig } from '../../../i18n/translations';
+
+export function getStaticPaths() {
+  const locales = ['en', 'ja', 'de', 'es'];
+  return locales.map(locale => ({ params: { locale }, props: { locale } }));
+}
+
+const { locale } = Astro.props;
+const t = siteConfig[locale];
+
+const content: Record<string, { title: string; sections: { h: string; p: string }[] }> = {
+  en: {
+    title: 'Privacy Policy',
+    sections: [
+      { h: 'Information We Collect', p: 'ToolPedia does not collect personal information unless you voluntarily provide it (e.g., via contact form). We use Google Analytics to track anonymous usage data such as page views, browser type, and referral source.' },
+      { h: 'Cookies', p: 'We use cookies for analytics (Google Analytics) and to remember your language preference. You can disable cookies in your browser settings. Third-party services like Google AdSense (when enabled) may also place cookies.' },
+      { h: 'Third-Party Links', p: 'Our site contains links to third-party websites. We are not responsible for their privacy practices. Some links are affiliate links — we may earn a commission at no extra cost to you.' },
+      { h: 'Data Retention', p: 'Anonymous analytics data is retained for 26 months. Contact form submissions are kept for 12 months.' },
+      { h: 'Your Rights', p: 'You may request deletion of any personal data we hold. Contact us via the contact page.' },
+      { h: 'Changes', p: 'We may update this policy. Changes will be posted on this page with an updated date.' },
+    ],
+  },
+  ja: {
+    title: 'プライバシーポリシー',
+    sections: [
+      { h: '収集する情報', p: 'ToolPediaは、お問い合わせフォームなどで自発的に提供されない限り、個人情報を収集しません。Google Analyticsを使用して、ページビュー、ブラウザタイプ、参照元などの匿名利用データを追跡します。' },
+      { h: 'クッキー', p: '分析（Google Analytics）と言語設定の記憶のためにクッキーを使用します。ブラウザ設定でクッキーを無効にできます。Google AdSenseなどのサードパーティサービスもクッキーを配置する場合があります。' },
+      { h: 'サードパーティリンク', p: '当サイトには第三者のウェブサイトへのリンクが含まれています。それらのプライバシー慣行について責任を負いません。一部のリンクはアフィリエイトリンクです。' },
+      { h: 'データ保持', p: '匿名分析データは26ヶ月間保持されます。お問い合わせの送信は12ヶ月間保持されます。' },
+      { h: 'お客様の権利', p: '当社が保有する個人データの削除をリクエストできます。お問い合わせページよりご連絡ください。' },
+      { h: '変更', p: 'このポリシーは更新される場合があります。変更は更新日とともにこのページに掲載されます。' },
+    ],
+  },
+  de: {
+    title: 'Datenschutzerklärung',
+    sections: [
+      { h: 'Welche Daten wir sammeln', p: 'ToolPedia erhebt keine personenbezogenen Daten, es sei denn, Sie geben sie freiwillig an (z.B. über das Kontaktformular). Wir nutzen Google Analytics für anonyme Nutzungsdaten wie Seitenaufrufe, Browsertyp und Herkunft.' },
+      { h: 'Cookies', p: 'Wir verwenden Cookies für Analysen (Google Analytics) und zum Speichern Ihrer Spracheinstellung. Sie können Cookies in den Browsereinstellungen deaktivieren.' },
+      { h: 'Links zu Drittanbietern', p: 'Unsere Seite enthält Links zu Drittanbieter-Websites. Wir sind nicht verantwortlich für deren Datenschutzpraktiken. Einige Links sind Affiliate-Links.' },
+      { h: 'Datenaufbewahrung', p: 'Anonyme Analysedaten werden 26 Monate aufbewahrt. Kontaktformular-Übermittlungen werden 12 Monate gespeichert.' },
+      { h: 'Ihre Rechte', p: 'Sie können die Löschung aller von uns gespeicherten personenbezogenen Daten verlangen. Kontaktieren Sie uns über die Kontaktseite.' },
+      { h: 'Änderungen', p: 'Wir können diese Richtlinie aktualisieren. Änderungen werden auf dieser Seite veröffentlicht.' },
+    ],
+  },
+  es: {
+    title: 'Política de Privacidad',
+    sections: [
+      { h: 'Información que recopilamos', p: 'ToolPedia no recopila información personal a menos que usted la proporcione voluntariamente. Usamos Google Analytics para rastrear datos de uso anónimos.' },
+      { h: 'Cookies', p: 'Usamos cookies para análisis y para recordar su preferencia de idioma. Puede deshabilitar las cookies en la configuración de su navegador.' },
+      { h: 'Enlaces a terceros', p: 'Nuestro sitio contiene enlaces a sitios web de terceros. No somos responsables de sus prácticas de privacidad. Algunos enlaces son de afiliados.' },
+      { h: 'Retención de datos', p: 'Los datos analíticos anónimos se retienen por 26 meses. Los envíos del formulario de contacto se mantienen por 12 meses.' },
+      { h: 'Sus derechos', p: 'Puede solicitar la eliminación de cualquier dato personal que tengamos. Contáctenos a través de la página de contacto.' },
+      { h: 'Cambios', p: 'Podemos actualizar esta política. Los cambios se publicarán en esta página.' },
+    ],
+  },
+};
+
+const c = content[locale] || content.en;
+---
+
+<BaseLayout locale={locale} title={`${c.title} — ToolPedia`} description={c.title}>
+  <article style="max-width:720px;margin:0 auto;padding:24px 0">
+    <h1>{c.title}</h1>
+    <p style="color:#94a3b8;font-size:.9rem">Last updated: June 5, 2026</p>
+    {c.sections.map(s => (
+      <div style="margin-bottom:28px">
+        <h3>{s.h}</h3>
+        <p>{s.p}</p>
+      </div>
+    ))}
+  </article>
+</BaseLayout>

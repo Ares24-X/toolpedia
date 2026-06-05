@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { siteConfig } from '../../../i18n/translations';
-import { articles } from '../../../data/articles';
+import { articles, pillarConfig } from '../../../data/articles';
 import content from '../../../data/article-content.json';
 
 export function getStaticPaths() {
@@ -17,8 +17,18 @@ export function getStaticPaths() {
 
 const { locale, article } = Astro.props;
 const t = siteConfig[locale];
+const cfg = pillarConfig[article.pillar];
 const contentBlocks = (content as Record<string, Record<string, string>>)[article.slug] || {};
 const bodyHtml = contentBlocks[locale] || '<p>Content coming soon.</p>';
+
+const pillarNames: Record<string, string> = {
+  reviews: t.nav.reviews, tutorials: t.nav.tutorials, pdf: t.nav.pdf,
+  design: t.nav.design, trends: t.nav.trends,
+};
+
+const related = articles
+  .filter(a => a.slug !== article.slug && a.pillar === article.pillar)
+  .slice(0, 3);
 
 const alternates = ['en', 'ja', 'de', 'es']
   .filter(l => l !== locale)
@@ -26,48 +36,65 @@ const alternates = ['en', 'ja', 'de', 'es']
     lang: l,
     href: `https://toolpedia.win/${l}/${article.pillar}/${article.slug}/`,
   }));
-
-const related = articles
-  .filter(a => a.pillar === article.pillar && a.slug !== article.slug)
-  .slice(0, 3);
 ---
 
-<BaseLayout locale={locale} title={article.title[locale]} description={article.description[locale]} lang={locale} alternate={alternates}>
-  <article>
-    <div style="margin-bottom:20px">
-      <span class="tag">{article.pillar}</span>
-      <span style="color:#888;font-size:0.85rem;margin-left:8px">{article.published}</span>
+<BaseLayout locale={locale} title={article.title[locale]} description={article.description[locale]}>
+  {alternates.map(alt => <link rel="alternate" hreflang={alt.lang} href={alt.href} />)}
+
+  <!-- Article hero -->
+  <div class="article-hero">
+    <div class="meta-row">
+      <a href={`/${locale}/${article.pillar}/`} class="tag" style="background:{cfg.bg};color:{cfg.color};text-decoration:none;font-size:.8rem">
+        {cfg.icon} {pillarNames[article.pillar]}
+      </a>
+      <span style="color:#94a3b8;font-size:.85rem">{article.published}</span>
+      {article.tags.slice(0, 3).map(tag => (
+        <span style="font-size:.75rem;color:#94a3b8;background:#f1f5f9;padding:2px 8px;border-radius:4px">#{tag}</span>
+      ))}
     </div>
+    <h1 style="font-size:2rem;max-width:720px">{article.title[locale]}</h1>
+    <p style="font-size:1.05rem;color:#64748b;max-width:640px">{article.description[locale]}</p>
+  </div>
 
-    <h1>{article.title[locale]}</h1>
-    <p style="font-size:1.05rem;color:#555;margin-bottom:32px">{article.description[locale]}</p>
+  <!-- Article body -->
+  <div class="article-body" set:html={bodyHtml} />
 
-    <div style="background:#fff;padding:32px;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,0.08)">
-      <Fragment set:html={bodyHtml} />
+  <!-- Language switch prompt -->
+  <div class="card" style="margin:32px 0;text-align:center;padding:20px">
+    <p style="margin:0;color:#64748b;font-size:.9rem">
+      🌐 {t.siteTitle}
+      {['en', 'ja', 'de', 'es'].filter(l => l !== locale).map(l => (
+        <a href={`/${l}/${article.pillar}/${article.slug}/`} style="margin:0 6px;font-weight:600">{l.toUpperCase()}</a>
+      ))}
+    </p>
+  </div>
+
+  <!-- CTA for linkTool -->
+  {article.linkTool === 'pixelpdf' && (
+    <div class="cta-box">
+      <h3>📄 Need to work with PDFs?</h3>
+      <p>Try PixelPDF — free online PDF tools to compress, merge, convert, and edit.</p>
+      <a href="https://pixelpdf.win" target="_blank" rel="noopener" class="btn btn-primary">Try PixelPDF →</a>
     </div>
+  )}
+  {article.linkTool === 'exdreamcolors' && (
+    <div class="cta-box">
+      <h3>🎨 Need the perfect color palette?</h3>
+      <p>Try ExDreamColors — create, explore, and export beautiful color palettes.</p>
+      <a href="https://exdreamcolors.win" target="_blank" rel="noopener" class="btn btn-primary">Try ExDreamColors →</a>
+    </div>
+  )}
 
-    {article.linkTool && (
-      <div class="cta-box">
-        {article.linkTool === 'pixelpdf' ? (
-          <p>Try it yourself: <a href="https://pixelpdf.win" target="_blank">pixelpdf.win</a> — free online PDF tools, no sign-up required.</p>
-        ) : (
-          <p>Try it yourself: <a href="https://exdreamcolors.win" target="_blank">exdreamcolors.win</a> — color tools for designers and developers.</p>
-        )}
-      </div>
-    )}
-  </article>
-
+  <!-- Related -->
   {related.length > 0 && (
-    <section style="margin-top:48px">
+    <section style="margin-top:40px">
       <h2>{t.related}</h2>
-      <div style="display:grid;gap:12px">
-        {related.map(r => (
-          <a href={`/${locale}/${r.pillar}/${r.slug}/`} style="display:block;background:#fff;padding:16px;border-radius:8px;text-decoration:none;box-shadow:0 1px 3px rgba(0,0,0,0.06);color:#1a1a2e">
-            <strong>{r.title[locale]}</strong>
-            <div style="font-size:0.85rem;color:#888;margin-top:4px">{r.description[locale]}</div>
-          </a>
-        ))}
-      </div>
+      {related.map(r => (
+        <div class="article-card">
+          <h2><a href={`/${locale}/${r.pillar}/${r.slug}/`}>{r.title[locale]}</a></h2>
+          <p>{r.description[locale]}</p>
+        </div>
+      ))}
     </section>
   )}
 </BaseLayout>
