@@ -236,5 +236,30 @@
       "tutorial"
     ],
     "linkTool": "exdreamcolors"
+  },
+  {
+    "slug": "best-free-ai-image-generators",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best Free AI Image Generators Compared (2026)",
+      "ja": "2026年 無料AI画像生成ツール比較",
+      "de": "Die besten kostenlosen KI-Bildgeneratoren im Vergleich (2026)",
+      "es": "Los mejores generadores de imágenes IA gratuitos (2026)"
+    },
+    "description": {
+      "en": "We tested DALL-E 3, Leonardo AI, Stable Diffusion, Ideogram, and Playground AI. Here's which free AI image generator is right for you.",
+      "ja": "DALL-E 3、Leonardo AI、Stable Diffusion、Ideogram、Playground AIをテスト。あなたに最適な無料AI画像生成ツールは？",
+      "de": "Wir haben DALL-E 3, Leonardo AI, Stable Diffusion, Ideogram und Playground AI getestet. Welcher ist der richtige für Sie?",
+      "es": "Probamos DALL-E 3, Leonardo AI, Stable Diffusion, Ideogram y Playground AI. ¿Cuál es el adecuado para ti?"
+    },
+    "published": "2026-06-06",
+    "tags": [
+      "ai",
+      "image",
+      "generator",
+      "comparison",
+      "top5"
+    ],
+    "linkTool": null
   }
 ]
