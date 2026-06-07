@@ -261,5 +261,30 @@
       "top5"
     ],
     "linkTool": null
+  },
+  {
+    "slug": "best-free-screen-recording-tools",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best Free Screen Recording Tools Reviewed (2026)",
+      "ja": "無料画面録画ツール徹底比較 2026",
+      "de": "Die besten kostenlosen Bildschirmrekorder im Test (2026)",
+      "es": "Los mejores grabadores de pantalla gratis analizados (2026)"
+    },
+    "description": {
+      "en": "We tested OBS Studio, Loom, ShareX, ScreenPal, Xbox Game Bar, and more to find the best free screen recorder for tutorials, gaming, and quick demos.",
+      "ja": "OBS Studio、Loom、ShareX、ScreenPal、Xbox Game Bar などを比較。チュートリアル、ゲーム録画、簡単なデモに最適な無料画面録画ツールを紹介します。",
+      "de": "Wir haben OBS Studio, Loom, ShareX, ScreenPal, Xbox Game Bar und weitere Tools getestet, um den besten kostenlosen Bildschirmrekorder für Tutorials, Gaming und schnelle Demos zu finden.",
+      "es": "Probamos OBS Studio, Loom, ShareX, ScreenPal, Xbox Game Bar y más para encontrar el mejor grabador de pantalla gratis para tutoriales, gaming y demos rápidas."
+    },
+    "published": "2026-06-07",
+    "tags": [
+      "screen-recording",
+      "video",
+      "comparison",
+      "tutorials",
+      "productivity"
+    ],
+    "linkTool": null
   }
 ]
