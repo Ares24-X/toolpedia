@@ -286,5 +286,30 @@
       "productivity"
     ],
     "linkTool": null
+  },
+  {
+    "slug": "best-free-grammar-checkers",
+    "pillar": "reviews",
+    "title": {
+      "en": "Free Grammar Checkers Compared: Grammarly vs Alternatives (2026)",
+      "ja": "無料文法チェッカー比較 2026年版: Grammarly vs 代替ツール",
+      "de": "Kostenlose Grammatikprüfer im Vergleich: Grammarly vs Alternativen (2026)",
+      "es": "Comparativa de correctores gramaticales gratis: Grammarly vs alternativas (2026)"
+    },
+    "description": {
+      "en": "We tested Grammarly, LanguageTool, QuillBot, Hemingway, and Ginger for accuracy, browser support, and privacy. Here is the best free grammar checker for each type of user.",
+      "ja": "Grammarly、LanguageTool、QuillBot、Hemingway、Ginger を精度、ブラウザ対応、プライバシーで比較。無料で使える最適な文法チェッカーを用途別に紹介します。",
+      "de": "Wir haben Grammarly, LanguageTool, QuillBot, Hemingway und Ginger auf Genauigkeit, Browser-Integration und Datenschutz getestet. Hier ist der beste kostenlose Grammatikprüfer für jeden Nutzertyp.",
+      "es": "Probamos Grammarly, LanguageTool, QuillBot, Hemingway y Ginger en precisión, integración con navegador y privacidad. Aquí tienes el mejor corrector gramatical gratis según tu uso."
+    },
+    "published": "2026-06-08",
+    "tags": [
+      "grammar",
+      "writing",
+      "comparison",
+      "productivity",
+      "editing"
+    ],
+    "linkTool": null
   }
 ]
