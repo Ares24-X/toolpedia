@@ -311,5 +311,30 @@
       "editing"
     ],
     "linkTool": null
+  },
+  {
+    "slug": "how-to-edit-pdf-files-free",
+    "pillar": "pdf",
+    "title": {
+      "en": "How to Edit PDF Files Online for Free: Step-by-Step Guide (2026)",
+      "ja": "無料でPDFをオンライン編集する方法: ステップ別ガイド 2026",
+      "de": "PDF-Dateien online kostenlos bearbeiten: Schritt-für-Schritt-Anleitung (2026)",
+      "es": "Cómo editar archivos PDF online gratis: guía paso a paso (2026)"
+    },
+    "description": {
+      "en": "Learn how to add text, insert images, highlight, sign, and save PDF files online for free with simple browser-based tools.",
+      "ja": "ブラウザだけでPDFに文字追加、画像挿入、注釈、署名、保存を無料で行う方法をわかりやすく解説します。",
+      "de": "So fügen Sie kostenlos im Browser Text, Bilder, Markierungen und Signaturen zu PDFs hinzu und speichern die Datei wieder ab.",
+      "es": "Aprenda a añadir texto, insertar imágenes, resaltar, firmar y guardar PDFs gratis desde el navegador con herramientas sencillas."
+    },
+    "published": "2026-06-09",
+    "tags": [
+      "pdf",
+      "edit",
+      "tutorial",
+      "online-tools",
+      "free"
+    ],
+    "linkTool": "pixelpdf"
   }
 ]
