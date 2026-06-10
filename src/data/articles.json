@@ -336,5 +336,30 @@
       "free"
     ],
     "linkTool": "pixelpdf"
+  },
+  {
+    "slug": "pdf-to-word-converter-guide",
+    "pillar": "pdf",
+    "title": {
+      "en": "PDF to Word Converter Guide: Best Free Methods (2026)",
+      "ja": "PDFをWordに変換する方法: 無料で使える最適解ガイド 2026",
+      "de": "PDF in Word umwandeln: Die besten kostenlosen Methoden (2026)",
+      "es": "Guía para convertir PDF a Word: los mejores métodos gratis (2026)"
+    },
+    "description": {
+      "en": "We tested the best free ways to convert PDF to editable Word documents, including browser-based tools, Google Docs, and layout-preserving converters.",
+      "ja": "PDFを編集可能なWord文書に変換する無料方法を比較。ブラウザツール、Googleドキュメント、レイアウト保持型の変換手順までまとめました。",
+      "de": "Wir haben die besten kostenlosen Methoden getestet, um PDFs in bearbeitbare Word-Dateien umzuwandeln, inklusive Browser-Tools, Google Docs und layoutstabilen Konvertern.",
+      "es": "Probamos las mejores formas gratuitas de convertir PDF en documentos Word editables, incluyendo herramientas web, Google Docs y conversores que conservan el diseño."
+    },
+    "published": "2026-06-10",
+    "tags": [
+      "pdf",
+      "word",
+      "convert",
+      "tutorial",
+      "free"
+    ],
+    "linkTool": "pixelpdf"
   }
 ]
