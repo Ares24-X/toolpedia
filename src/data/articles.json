@@ -361,5 +361,30 @@
       "free"
     ],
     "linkTool": "pixelpdf"
+  },
+  {
+    "slug": "best-free-online-translation-tools",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best Free Online Translation Tools Compared (2026)",
+      "ja": "無料オンライン翻訳ツール徹底比較 2026年版",
+      "de": "Die besten kostenlosen Online-Übersetzungstools im Vergleich (2026)",
+      "es": "Los mejores traductores online gratuitos comparados (2026)"
+    },
+    "description": {
+      "en": "We tested DeepL, Google Translate, ChatGPT, Microsoft Translator, Reverso, and LibreTranslate — here is the best free translation tool for every use case.",
+      "ja": "DeepL、Google翻訳、ChatGPT、Microsoft Translator、Reverso、LibreTranslateを徹底比較。あなたに最適な無料翻訳ツールを紹介します。",
+      "de": "Wir haben DeepL, Google Translate, ChatGPT, Microsoft Translator, Reverso und LibreTranslate getestet — das beste kostenlose Übersetzungstool für jeden Einsatzzweck.",
+      "es": "Probamos DeepL, Google Translate, ChatGPT, Microsoft Translator, Reverso y LibreTranslate — el mejor traductor gratuito para cada uso."
+    },
+    "published": "2026-06-10",
+    "tags": [
+      "translation",
+      "comparison",
+      "language",
+      "productivity",
+      "ai-tools"
+    ],
+    "linkTool": null
   }
 ]
