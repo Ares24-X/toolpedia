@@ -386,5 +386,471 @@
       "ai-tools"
     ],
     "linkTool": null
+  },
+  {
+    "slug": "best-ai-writing-tools-for-bloggers",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best AI Writing Tools for Bloggers: 7 Practical Picks for 2026",
+      "ja": "Best AI Writing Tools for Bloggers: 7 Practical Picks for 2026",
+      "de": "Best AI Writing Tools for Bloggers: 7 Practical Picks for 2026",
+      "es": "Best AI Writing Tools for Bloggers: 7 Practical Picks for 2026"
+    },
+    "description": {
+      "en": "Compare the best AI writing tools for bloggers, from outlines and SEO drafts to editing, fact checks, and publishing workflows.",
+      "ja": "Compare the best AI writing tools for bloggers, from outlines and SEO drafts to editing, fact checks, and publishing workflows.",
+      "de": "Compare the best AI writing tools for bloggers, from outlines and SEO drafts to editing, fact checks, and publishing workflows.",
+      "es": "Compare the best AI writing tools for bloggers, from outlines and SEO drafts to editing, fact checks, and publishing workflows."
+    },
+    "published": "2026-06-11",
+    "tags": [
+      "ai",
+      "writing",
+      "blogging",
+      "comparison"
+    ]
+  },
+  {
+    "slug": "chatgpt-alternatives-for-work",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best ChatGPT Alternatives for Work: Claude, Gemini, Perplexity and More",
+      "ja": "Best ChatGPT Alternatives for Work: Claude, Gemini, Perplexity and More",
+      "de": "Best ChatGPT Alternatives for Work: Claude, Gemini, Perplexity and More",
+      "es": "Best ChatGPT Alternatives for Work: Claude, Gemini, Perplexity and More"
+    },
+    "description": {
+      "en": "A practical comparison of ChatGPT alternatives for research, writing, coding, office documents, and team knowledge work.",
+      "ja": "A practical comparison of ChatGPT alternatives for research, writing, coding, office documents, and team knowledge work.",
+      "de": "A practical comparison of ChatGPT alternatives for research, writing, coding, office documents, and team knowledge work.",
+      "es": "A practical comparison of ChatGPT alternatives for research, writing, coding, office documents, and team knowledge work."
+    },
+    "published": "2026-06-11",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "productivity",
+      "comparison"
+    ]
+  },
+  {
+    "slug": "ai-image-generators-for-marketing",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best AI Image Generators for Marketing Creative in 2026",
+      "ja": "Best AI Image Generators for Marketing Creative in 2026",
+      "de": "Best AI Image Generators for Marketing Creative in 2026",
+      "es": "Best AI Image Generators for Marketing Creative in 2026"
+    },
+    "description": {
+      "en": "Compare AI image generators for ads, product mockups, social posts, thumbnails, and brand-safe marketing visuals.",
+      "ja": "Compare AI image generators for ads, product mockups, social posts, thumbnails, and brand-safe marketing visuals.",
+      "de": "Compare AI image generators for ads, product mockups, social posts, thumbnails, and brand-safe marketing visuals.",
+      "es": "Compare AI image generators for ads, product mockups, social posts, thumbnails, and brand-safe marketing visuals."
+    },
+    "published": "2026-06-11",
+    "tags": [
+      "ai",
+      "image",
+      "marketing",
+      "design"
+    ]
+  },
+  {
+    "slug": "best-ai-meeting-note-takers",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best AI Meeting Note Takers for Zoom, Meet and Teams",
+      "ja": "Best AI Meeting Note Takers for Zoom, Meet and Teams",
+      "de": "Best AI Meeting Note Takers for Zoom, Meet and Teams",
+      "es": "Best AI Meeting Note Takers for Zoom, Meet and Teams"
+    },
+    "description": {
+      "en": "Compare AI meeting note takers for transcripts, action items, CRM updates, search, and privacy-sensitive team workflows.",
+      "ja": "Compare AI meeting note takers for transcripts, action items, CRM updates, search, and privacy-sensitive team workflows.",
+      "de": "Compare AI meeting note takers for transcripts, action items, CRM updates, search, and privacy-sensitive team workflows.",
+      "es": "Compare AI meeting note takers for transcripts, action items, CRM updates, search, and privacy-sensitive team workflows."
+    },
+    "published": "2026-06-11",
+    "tags": [
+      "ai",
+      "meetings",
+      "transcription",
+      "productivity"
+    ]
+  },
+  {
+    "slug": "ai-video-generators-for-social-media",
+    "pillar": "trends",
+    "title": {
+      "en": "AI Video Generators for Social Media: Best Tools for Short Clips",
+      "ja": "AI Video Generators for Social Media: Best Tools for Short Clips",
+      "de": "AI Video Generators for Social Media: Best Tools for Short Clips",
+      "es": "AI Video Generators for Social Media: Best Tools for Short Clips"
+    },
+    "description": {
+      "en": "A practical guide to AI video generators for reels, ads, faceless channels, product explainers, and short-form content.",
+      "ja": "A practical guide to AI video generators for reels, ads, faceless channels, product explainers, and short-form content.",
+      "de": "A practical guide to AI video generators for reels, ads, faceless channels, product explainers, and short-form content.",
+      "es": "A practical guide to AI video generators for reels, ads, faceless channels, product explainers, and short-form content."
+    },
+    "published": "2026-06-11",
+    "tags": [
+      "ai",
+      "video",
+      "social-media",
+      "trends"
+    ]
+  },
+  {
+    "slug": "best-free-pdf-editors",
+    "pillar": "pdf",
+    "title": {
+      "en": "Best Free PDF Editors: Edit Text, Forms and Pages Without Acrobat",
+      "ja": "Best Free PDF Editors: Edit Text, Forms and Pages Without Acrobat",
+      "de": "Best Free PDF Editors: Edit Text, Forms and Pages Without Acrobat",
+      "es": "Best Free PDF Editors: Edit Text, Forms and Pages Without Acrobat"
+    },
+    "description": {
+      "en": "Compare the best free PDF editors for text changes, forms, annotations, page edits, and browser-based PDF workflows.",
+      "ja": "Compare the best free PDF editors for text changes, forms, annotations, page edits, and browser-based PDF workflows.",
+      "de": "Compare the best free PDF editors for text changes, forms, annotations, page edits, and browser-based PDF workflows.",
+      "es": "Compare the best free PDF editors for text changes, forms, annotations, page edits, and browser-based PDF workflows."
+    },
+    "published": "2026-06-11",
+    "tags": [
+      "pdf",
+      "editor",
+      "free",
+      "comparison"
+    ],
+    "linkTool": "pixelpdf"
+  },
+  {
+    "slug": "pdf-compression-tools-for-large-files",
+    "pillar": "pdf",
+    "title": {
+      "en": "Best PDF Compression Tools for Large Files and Scanned Documents",
+      "ja": "Best PDF Compression Tools for Large Files and Scanned Documents",
+      "de": "Best PDF Compression Tools for Large Files and Scanned Documents",
+      "es": "Best PDF Compression Tools for Large Files and Scanned Documents"
+    },
+    "description": {
+      "en": "Find the best PDF compression tools for large files, scanned PDFs, email attachments, and privacy-sensitive documents.",
+      "ja": "Find the best PDF compression tools for large files, scanned PDFs, email attachments, and privacy-sensitive documents.",
+      "de": "Find the best PDF compression tools for large files, scanned PDFs, email attachments, and privacy-sensitive documents.",
+      "es": "Find the best PDF compression tools for large files, scanned PDFs, email attachments, and privacy-sensitive documents."
+    },
+    "published": "2026-06-11",
+    "tags": [
+      "pdf",
+      "compression",
+      "large-files",
+      "scanned"
+    ],
+    "linkTool": "pixelpdf"
+  },
+  {
+    "slug": "pdf-to-word-converters-with-ocr",
+    "pillar": "pdf",
+    "title": {
+      "en": "Best PDF to Word Converters with OCR for Scanned Documents",
+      "ja": "Best PDF to Word Converters with OCR for Scanned Documents",
+      "de": "Best PDF to Word Converters with OCR for Scanned Documents",
+      "es": "Best PDF to Word Converters with OCR for Scanned Documents"
+    },
+    "description": {
+      "en": "Compare PDF to Word converters with OCR for scans, contracts, forms, invoices, and editable DOCX output.",
+      "ja": "Compare PDF to Word converters with OCR for scans, contracts, forms, invoices, and editable DOCX output.",
+      "de": "Compare PDF to Word converters with OCR for scans, contracts, forms, invoices, and editable DOCX output.",
+      "es": "Compare PDF to Word converters with OCR for scans, contracts, forms, invoices, and editable DOCX output."
+    },
+    "published": "2026-06-11",
+    "tags": [
+      "pdf",
+      "ocr",
+      "word",
+      "conversion"
+    ],
+    "linkTool": "pixelpdf"
+  },
+  {
+    "slug": "pdf-merger-tools-online",
+    "pillar": "pdf",
+    "title": {
+      "en": "Best Online PDF Merger Tools for Combining Files Fast",
+      "ja": "Best Online PDF Merger Tools for Combining Files Fast",
+      "de": "Best Online PDF Merger Tools for Combining Files Fast",
+      "es": "Best Online PDF Merger Tools for Combining Files Fast"
+    },
+    "description": {
+      "en": "Compare online PDF merger tools for reports, contracts, invoices, portfolios, and quick no-install document workflows.",
+      "ja": "Compare online PDF merger tools for reports, contracts, invoices, portfolios, and quick no-install document workflows.",
+      "de": "Compare online PDF merger tools for reports, contracts, invoices, portfolios, and quick no-install document workflows.",
+      "es": "Compare online PDF merger tools for reports, contracts, invoices, portfolios, and quick no-install document workflows."
+    },
+    "published": "2026-06-11",
+    "tags": [
+      "pdf",
+      "merge",
+      "online",
+      "documents"
+    ],
+    "linkTool": "pixelpdf"
+  },
+  {
+    "slug": "how-to-redact-pdf-free",
+    "pillar": "pdf",
+    "title": {
+      "en": "How to Redact a PDF for Free Without Leaking Hidden Text",
+      "ja": "How to Redact a PDF for Free Without Leaking Hidden Text",
+      "de": "How to Redact a PDF for Free Without Leaking Hidden Text",
+      "es": "How to Redact a PDF for Free Without Leaking Hidden Text"
+    },
+    "description": {
+      "en": "Learn how to redact a PDF safely for free, including the tools to use and the mistakes that leave hidden text behind.",
+      "ja": "Learn how to redact a PDF safely for free, including the tools to use and the mistakes that leave hidden text behind.",
+      "de": "Learn how to redact a PDF safely for free, including the tools to use and the mistakes that leave hidden text behind.",
+      "es": "Learn how to redact a PDF safely for free, including the tools to use and the mistakes that leave hidden text behind."
+    },
+    "published": "2026-06-11",
+    "tags": [
+      "pdf",
+      "redaction",
+      "privacy",
+      "tutorial"
+    ],
+    "linkTool": "pixelpdf"
+  },
+  {
+    "slug": "canva-alternatives-for-small-business",
+    "pillar": "design",
+    "title": {
+      "en": "Best Canva Alternatives for Small Business Design Work",
+      "ja": "Best Canva Alternatives for Small Business Design Work",
+      "de": "Best Canva Alternatives for Small Business Design Work",
+      "es": "Best Canva Alternatives for Small Business Design Work"
+    },
+    "description": {
+      "en": "Compare Canva alternatives for social graphics, brand kits, presentations, print assets, and quick marketing design.",
+      "ja": "Compare Canva alternatives for social graphics, brand kits, presentations, print assets, and quick marketing design.",
+      "de": "Compare Canva alternatives for social graphics, brand kits, presentations, print assets, and quick marketing design.",
+      "es": "Compare Canva alternatives for social graphics, brand kits, presentations, print assets, and quick marketing design."
+    },
+    "published": "2026-06-11",
+    "tags": [
+      "design",
+      "canva",
+      "small-business",
+      "comparison"
+    ]
+  },
+  {
+    "slug": "free-logo-makers-for-startups",
+    "pillar": "design",
+    "title": {
+      "en": "Best Free Logo Makers for Startups: Fast Options That Do Not Look Cheap",
+      "ja": "Best Free Logo Makers for Startups: Fast Options That Do Not Look Cheap",
+      "de": "Best Free Logo Makers for Startups: Fast Options That Do Not Look Cheap",
+      "es": "Best Free Logo Makers for Startups: Fast Options That Do Not Look Cheap"
+    },
+    "description": {
+      "en": "Compare free logo makers for startup ideas, side projects, ecommerce stores, and quick brand testing before hiring a designer.",
+      "ja": "Compare free logo makers for startup ideas, side projects, ecommerce stores, and quick brand testing before hiring a designer.",
+      "de": "Compare free logo makers for startup ideas, side projects, ecommerce stores, and quick brand testing before hiring a designer.",
+      "es": "Compare free logo makers for startup ideas, side projects, ecommerce stores, and quick brand testing before hiring a designer."
+    },
+    "published": "2026-06-11",
+    "tags": [
+      "design",
+      "logo",
+      "startup",
+      "branding"
+    ]
+  },
+  {
+    "slug": "ui-color-palette-generators",
+    "pillar": "design",
+    "title": {
+      "en": "Best Color Palette Generators for UI and Web Design",
+      "ja": "Best Color Palette Generators for UI and Web Design",
+      "de": "Best Color Palette Generators for UI and Web Design",
+      "es": "Best Color Palette Generators for UI and Web Design"
+    },
+    "description": {
+      "en": "Compare color palette generators for websites, dashboards, apps, brand systems, accessibility, and fast UI design decisions.",
+      "ja": "Compare color palette generators for websites, dashboards, apps, brand systems, accessibility, and fast UI design decisions.",
+      "de": "Compare color palette generators for websites, dashboards, apps, brand systems, accessibility, and fast UI design decisions.",
+      "es": "Compare color palette generators for websites, dashboards, apps, brand systems, accessibility, and fast UI design decisions."
+    },
+    "published": "2026-06-11",
+    "tags": [
+      "design",
+      "color",
+      "ui",
+      "palette"
+    ],
+    "linkTool": "exdreamcolors"
+  },
+  {
+    "slug": "font-pairing-tools-for-designers",
+    "pillar": "design",
+    "title": {
+      "en": "Best Font Pairing Tools for Designers and Non-Designers",
+      "ja": "Best Font Pairing Tools for Designers and Non-Designers",
+      "de": "Best Font Pairing Tools for Designers and Non-Designers",
+      "es": "Best Font Pairing Tools for Designers and Non-Designers"
+    },
+    "description": {
+      "en": "Compare font pairing tools for landing pages, logos, presentations, blogs, and brand systems that need readable typography.",
+      "ja": "Compare font pairing tools for landing pages, logos, presentations, blogs, and brand systems that need readable typography.",
+      "de": "Compare font pairing tools for landing pages, logos, presentations, blogs, and brand systems that need readable typography.",
+      "es": "Compare font pairing tools for landing pages, logos, presentations, blogs, and brand systems that need readable typography."
+    },
+    "published": "2026-06-11",
+    "tags": [
+      "design",
+      "typography",
+      "fonts",
+      "branding"
+    ]
+  },
+  {
+    "slug": "free-keyword-research-tools",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best Free Keyword Research Tools for SEO Content Planning",
+      "ja": "Best Free Keyword Research Tools for SEO Content Planning",
+      "de": "Best Free Keyword Research Tools for SEO Content Planning",
+      "es": "Best Free Keyword Research Tools for SEO Content Planning"
+    },
+    "description": {
+      "en": "Compare free keyword research tools for finding long-tail keywords, search intent, content gaps, and realistic SEO opportunities.",
+      "ja": "Compare free keyword research tools for finding long-tail keywords, search intent, content gaps, and realistic SEO opportunities.",
+      "de": "Compare free keyword research tools for finding long-tail keywords, search intent, content gaps, and realistic SEO opportunities.",
+      "es": "Compare free keyword research tools for finding long-tail keywords, search intent, content gaps, and realistic SEO opportunities."
+    },
+    "published": "2026-06-11",
+    "tags": [
+      "seo",
+      "keywords",
+      "content",
+      "free"
+    ]
+  },
+  {
+    "slug": "backlink-checker-tools",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best Backlink Checker Tools for Competitor Research",
+      "ja": "Best Backlink Checker Tools for Competitor Research",
+      "de": "Best Backlink Checker Tools for Competitor Research",
+      "es": "Best Backlink Checker Tools for Competitor Research"
+    },
+    "description": {
+      "en": "Compare backlink checker tools for competitor research, link audits, outreach targets, and small-business SEO decisions.",
+      "ja": "Compare backlink checker tools for competitor research, link audits, outreach targets, and small-business SEO decisions.",
+      "de": "Compare backlink checker tools for competitor research, link audits, outreach targets, and small-business SEO decisions.",
+      "es": "Compare backlink checker tools for competitor research, link audits, outreach targets, and small-business SEO decisions."
+    },
+    "published": "2026-06-11",
+    "tags": [
+      "seo",
+      "backlinks",
+      "competitor-research",
+      "tools"
+    ]
+  },
+  {
+    "slug": "rank-tracker-tools-for-small-business",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best Rank Tracker Tools for Small Business SEO",
+      "ja": "Best Rank Tracker Tools for Small Business SEO",
+      "de": "Best Rank Tracker Tools for Small Business SEO",
+      "es": "Best Rank Tracker Tools for Small Business SEO"
+    },
+    "description": {
+      "en": "Compare rank tracker tools for local SEO, keyword monitoring, client reports, SERP changes, and budget-conscious businesses.",
+      "ja": "Compare rank tracker tools for local SEO, keyword monitoring, client reports, SERP changes, and budget-conscious businesses.",
+      "de": "Compare rank tracker tools for local SEO, keyword monitoring, client reports, SERP changes, and budget-conscious businesses.",
+      "es": "Compare rank tracker tools for local SEO, keyword monitoring, client reports, SERP changes, and budget-conscious businesses."
+    },
+    "published": "2026-06-11",
+    "tags": [
+      "seo",
+      "rank-tracking",
+      "small-business",
+      "local-seo"
+    ]
+  },
+  {
+    "slug": "affiliate-marketing-tools-for-beginners",
+    "pillar": "tutorials",
+    "title": {
+      "en": "Best Affiliate Marketing Tools for Beginners: Build a Simple Stack",
+      "ja": "Best Affiliate Marketing Tools for Beginners: Build a Simple Stack",
+      "de": "Best Affiliate Marketing Tools for Beginners: Build a Simple Stack",
+      "es": "Best Affiliate Marketing Tools for Beginners: Build a Simple Stack"
+    },
+    "description": {
+      "en": "Learn the best affiliate marketing tools for beginners, including research, content, links, tracking, email, and landing pages.",
+      "ja": "Learn the best affiliate marketing tools for beginners, including research, content, links, tracking, email, and landing pages.",
+      "de": "Learn the best affiliate marketing tools for beginners, including research, content, links, tracking, email, and landing pages.",
+      "es": "Learn the best affiliate marketing tools for beginners, including research, content, links, tracking, email, and landing pages."
+    },
+    "published": "2026-06-11",
+    "tags": [
+      "affiliate-marketing",
+      "marketing",
+      "tutorial",
+      "tools"
+    ]
+  },
+  {
+    "slug": "email-marketing-platforms-for-creators",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best Email Marketing Platforms for Creators and Small Lists",
+      "ja": "Best Email Marketing Platforms for Creators and Small Lists",
+      "de": "Best Email Marketing Platforms for Creators and Small Lists",
+      "es": "Best Email Marketing Platforms for Creators and Small Lists"
+    },
+    "description": {
+      "en": "Compare email marketing platforms for newsletters, digital products, automations, landing pages, and creator monetization.",
+      "ja": "Compare email marketing platforms for newsletters, digital products, automations, landing pages, and creator monetization.",
+      "de": "Compare email marketing platforms for newsletters, digital products, automations, landing pages, and creator monetization.",
+      "es": "Compare email marketing platforms for newsletters, digital products, automations, landing pages, and creator monetization."
+    },
+    "published": "2026-06-11",
+    "tags": [
+      "email-marketing",
+      "creators",
+      "newsletter",
+      "marketing"
+    ]
+  },
+  {
+    "slug": "landing-page-builders-for-startups",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best Landing Page Builders for Startups Testing New Offers",
+      "ja": "Best Landing Page Builders for Startups Testing New Offers",
+      "de": "Best Landing Page Builders for Startups Testing New Offers",
+      "es": "Best Landing Page Builders for Startups Testing New Offers"
+    },
+    "description": {
+      "en": "Compare landing page builders for startups, waitlists, MVP launches, paid ads, lead magnets, and fast offer validation.",
+      "ja": "Compare landing page builders for startups, waitlists, MVP launches, paid ads, lead magnets, and fast offer validation.",
+      "de": "Compare landing page builders for startups, waitlists, MVP launches, paid ads, lead magnets, and fast offer validation.",
+      "es": "Compare landing page builders for startups, waitlists, MVP launches, paid ads, lead magnets, and fast offer validation."
+    },
+    "published": "2026-06-11",
+    "tags": [
+      "landing-pages",
+      "startups",
+      "marketing",
+      "conversion"
+    ]
   }
 ]
