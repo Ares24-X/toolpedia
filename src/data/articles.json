@@ -852,5 +852,28 @@
       "marketing",
       "conversion"
     ]
+  },
+  {
+    "slug": "no-code-ai-research-workflow",
+    "pillar": "tutorials",
+    "title": {
+      "en": "How to Build a No-Code AI Research Workflow",
+      "ja": "ノーコードAIリサーチワークフローの作り方",
+      "de": "No-Code-AI-Recherche-Workflow erstellen",
+      "es": "Cómo crear un flujo de investigación con IA sin código"
+    },
+    "description": {
+      "en": "A practical no-code workflow for collecting sources, summarizing pages, comparing tools, and turning research into publishable notes.",
+      "ja": "情報収集、要約、ツール比較、公開用メモ作成までを進める実践的なノーコードAIワークフロー。",
+      "de": "Ein praktischer No-Code-Workflow zum Sammeln von Quellen, Zusammenfassen von Seiten, Vergleichen von Tools und Erstellen veröffentlichbarer Notizen.",
+      "es": "Un flujo práctico sin código para recopilar fuentes, resumir páginas, comparar herramientas y convertir la investigación en notas publicables."
+    },
+    "published": "2026-06-11",
+    "tags": [
+      "ai",
+      "research",
+      "no-code",
+      "productivity"
+    ]
   }
 ]
