@@ -898,5 +898,28 @@
       "documents",
       "productivity"
     ]
+  },
+  {
+    "slug": "ai-social-media-design-tools-for-creators",
+    "pillar": "design",
+    "title": {
+      "en": "Best AI Social Media Design Tools for Creators",
+      "ja": "クリエイター向けAIソーシャルメディアデザインツール比較",
+      "de": "Beste KI-Design-Tools für Social-Media-Creator",
+      "es": "Mejores herramientas de diseño con IA para creadores en redes sociales"
+    },
+    "description": {
+      "en": "Compare AI design tools for creators who need faster social posts, thumbnails, brand kits, short-form visuals, and campaign assets without a full design team.",
+      "ja": "専任デザイナーなしで投稿画像、サムネイル、ブランドキット、ショート動画用素材を速く作りたいクリエイター向けのAIデザインツール比較。",
+      "de": "KI-Design-Tools für Creator im Vergleich: Social Posts, Thumbnails, Brand Kits, Short-Form-Visuals und Kampagnenassets ohne großes Designteam.",
+      "es": "Comparativa de herramientas de diseño con IA para creadores que necesitan posts, miniaturas, kits de marca y recursos de campaña sin un equipo de diseño completo."
+    },
+    "published": "2026-06-14",
+    "tags": [
+      "ai",
+      "design",
+      "social-media",
+      "creators"
+    ]
   }
 ]
