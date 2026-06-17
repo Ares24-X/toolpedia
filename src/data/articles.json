@@ -996,5 +996,30 @@
       "tutorial"
     ],
     "linkTool": "exdreamcolors"
+  },
+  {
+    "slug": "ai-search-engines-changing-tool-discovery-2026",
+    "pillar": "trends",
+    "title": {
+      "en": "AI Search Engines Are Changing How People Discover Tools in 2026",
+      "ja": "2026年、AI検索エンジンがツール発見を変えている",
+      "de": "Wie KI-Suchmaschinen 2026 die Tool-Entdeckung verändern",
+      "es": "Los motores de búsqueda con IA están cambiando cómo se descubren herramientas en 2026"
+    },
+    "description": {
+      "en": "A practical look at how Perplexity-style answers, Google AI Overviews, and chat search are changing SEO for tool directories and software comparison pages.",
+      "ja": "Perplexity型の回答、Google AI Overviews、チャット検索が、ツールディレクトリと比較記事のSEOをどう変えているかを実務目線で解説します。",
+      "de": "Ein praktischer Blick darauf, wie Perplexity-ähnliche Antworten, Google AI Overviews und Chat-Suche SEO für Tool-Verzeichnisse und Softwarevergleiche verändern.",
+      "es": "Una mirada práctica a cómo las respuestas tipo Perplexity, Google AI Overviews y la búsqueda conversacional cambian el SEO para directorios de herramientas y comparativas de software."
+    },
+    "published": "2026-06-17",
+    "tags": [
+      "ai search",
+      "seo",
+      "tool discovery",
+      "software marketing",
+      "trends"
+    ],
+    "linkTool": null
   }
 ]
