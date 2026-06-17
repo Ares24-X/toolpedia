@@ -946,5 +946,30 @@
       "trends"
     ],
     "linkTool": null
+  },
+  {
+    "slug": "color-theory-beginners-guide-web-design",
+    "pillar": "design",
+    "title": {
+      "en": "Color Theory for Web Designers: A Beginner's Guide (2026)",
+      "ja": "Webデザイナーのための色彩理論入門ガイド 2026",
+      "de": "Farbtheorie für Webdesigner: Ein Leitfaden für Einsteiger (2026)",
+      "es": "Teoría del color para diseñadores web: guía para principiantes (2026)"
+    },
+    "description": {
+      "en": "Learn the color wheel, harmony rules, contrast, accessibility, and a practical workflow for choosing website colors that look good and convert better.",
+      "ja": "カラーホイール、配色ルール、コントラスト、アクセシビリティ、そして見た目も成果も良いWeb配色の実践手順をわかりやすく解説します。",
+      "de": "Lernen Sie Farbkreis, Harmonien, Kontrast, Barrierefreiheit und einen praktischen Workflow kennen, um Website-Farben auszuwählen, die gut aussehen und besser funktionieren.",
+      "es": "Aprenda rueda de color, armonías, contraste, accesibilidad y un flujo práctico para elegir colores web que se vean bien y conviertan mejor."
+    },
+    "published": "2026-06-17",
+    "tags": [
+      "color",
+      "design",
+      "web-design",
+      "accessibility",
+      "tutorial"
+    ],
+    "linkTool": "exdreamcolors"
   }
 ]
