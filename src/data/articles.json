@@ -971,5 +971,30 @@
       "tutorial"
     ],
     "linkTool": "exdreamcolors"
+  },
+  {
+    "slug": "modern-css-color-functions",
+    "pillar": "design",
+    "title": {
+      "en": "Modern CSS Color Functions: hsl(), oklch(), color-mix() Explained",
+      "ja": "モダンCSSカラー関数入門: hsl()・oklch()・color-mix() を解説",
+      "de": "Moderne CSS-Funktionen für Farben: hsl(), oklch() und color-mix() erklärt",
+      "es": "Funciones modernas de color en CSS: guía de hsl(), oklch() y color-mix()"
+    },
+    "description": {
+      "en": "Learn when to use hsl(), oklch(), lab(), and color-mix() in real UI work, with examples for themes, accessible palettes, and smoother design systems.",
+      "ja": "hsl()、oklch()、lab()、color-mix() を実務のUI設計でどう使い分けるかを、テーマ設計やアクセシビリティの例つきで解説します。",
+      "de": "So setzen Sie hsl(), oklch(), lab() und color-mix() in echten UI-Projekten ein – mit Beispielen für Themes, barrierearme Paletten und Design-Systeme.",
+      "es": "Aprende cuándo usar hsl(), oklch(), lab() y color-mix() en interfaces reales, con ejemplos para temas, accesibilidad y sistemas de diseño."
+    },
+    "published": "2026-06-17",
+    "tags": [
+      "css",
+      "color",
+      "design",
+      "frontend",
+      "tutorial"
+    ],
+    "linkTool": "exdreamcolors"
   }
 ]
