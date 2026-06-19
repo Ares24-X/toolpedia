@@ -1096,5 +1096,30 @@
       "tutorial"
     ],
     "linkTool": "pixelpdf"
+  },
+  {
+    "slug": "ai-icon-generators-product-teams-2026",
+    "pillar": "design",
+    "title": {
+      "en": "Best AI Icon Generators for Product Teams in 2026",
+      "ja": "2026年プロダクトチーム向けAIアイコン生成ツール比較",
+      "de": "Die besten KI-Icon-Generatoren für Produktteams 2026",
+      "es": "Mejores generadores de iconos con IA para equipos de producto en 2026"
+    },
+    "description": {
+      "en": "A practical design guide for choosing AI icon generators, testing export quality, keeping style consistent, and avoiding unusable icon sets.",
+      "ja": "AIアイコン生成ツールの選び方、書き出し品質、スタイル統一、使えないアイコンセットを避けるための実践ガイドです。",
+      "de": "Ein praktischer Design-Guide zur Auswahl von KI-Icon-Generatoren, Exportqualität, Stiltreue und nutzbaren Icon-Sets.",
+      "es": "Una guía práctica para elegir generadores de iconos con IA, revisar exportaciones, mantener estilo y evitar paquetes inútiles."
+    },
+    "published": "2026-06-19",
+    "tags": [
+      "ai icons",
+      "design",
+      "product design",
+      "svg",
+      "branding"
+    ],
+    "linkTool": null
   }
 ]
