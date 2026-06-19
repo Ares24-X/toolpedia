@@ -1071,5 +1071,30 @@
       "tutorial"
     ],
     "linkTool": null
+  },
+  {
+    "slug": "how-to-split-pdf-pages-free",
+    "pillar": "pdf",
+    "title": {
+      "en": "How to Split PDF Files Online for Free",
+      "ja": "無料でPDFファイルをオンライン分割する方法",
+      "de": "PDF-Dateien kostenlos online teilen: Schritt-für-Schritt-Anleitung",
+      "es": "Cómo dividir archivos PDF online gratis"
+    },
+    "description": {
+      "en": "Three simple ways to split a PDF online for free, extract selected pages, and avoid common export mistakes.",
+      "ja": "PDFから必要なページだけを無料で取り出す3つの方法と、よくある失敗を避けるコツを解説します。",
+      "de": "Drei einfache Methoden, um PDFs kostenlos online zu teilen, einzelne Seiten zu extrahieren und Exportfehler zu vermeiden.",
+      "es": "Tres métodos sencillos para dividir un PDF gratis, extraer páginas concretas y evitar errores comunes al exportar."
+    },
+    "published": "2026-06-19",
+    "tags": [
+      "pdf",
+      "split pdf",
+      "extract pages",
+      "online tools",
+      "tutorial"
+    ],
+    "linkTool": "pixelpdf"
   }
 ]
