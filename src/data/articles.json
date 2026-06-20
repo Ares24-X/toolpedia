@@ -1121,5 +1121,30 @@
       "branding"
     ],
     "linkTool": null
+  },
+  {
+    "slug": "best-free-resume-builders",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best Free Resume Builders Compared (2026)",
+      "ja": "無料レジュメ作成ツール徹底比較 2026年版",
+      "de": "Die besten kostenlosen Lebenslauf-Builder im Vergleich (2026)",
+      "es": "Los mejores creadores de currículum gratis comparados (2026)"
+    },
+    "description": {
+      "en": "We tested Canva, Resume.io, Novoresume, Kickresume, and Enhancv for template quality, export limits, and ATS compatibility. Here is the best free resume builder for each type of job seeker.",
+      "ja": "Canva、Resume.io、Novoresume、Kickresume、Enhancv をテンプレート品質、書き出し制限、ATS対応で比較。求職者タイプ別に最適な無料レジュメ作成ツールを紹介します。",
+      "de": "Wir haben Canva, Resume.io, Novoresume, Kickresume und Enhancv auf Vorlagenqualität, Exportgrenzen und ATS-Kompatibilität getestet. Hier ist der beste kostenlose Lebenslauf-Builder für jeden Bewerbertyp.",
+      "es": "Probamos Canva, Resume.io, Novoresume, Kickresume y Enhancv en calidad de plantillas, límites de exportación y compatibilidad ATS. Aquí tienes el mejor creador de currículum gratis según tu perfil."
+    },
+    "published": "2026-06-20",
+    "tags": [
+      "resume",
+      "cv",
+      "comparison",
+      "job-search",
+      "productivity"
+    ],
+    "linkTool": null
   }
 ]
