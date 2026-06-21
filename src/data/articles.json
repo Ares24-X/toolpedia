@@ -1170,5 +1170,30 @@
       "productivity"
     ],
     "linkTool": null
+  },
+  {
+    "slug": "website-color-contrast-checker-guide",
+    "pillar": "design",
+    "title": {
+      "en": "How to Check Website Color Contrast: Free Beginner Guide (2026)",
+      "ja": "Webサイトの色コントラストを確認する方法 無料入門ガイド 2026",
+      "de": "Website-Farbkontrast prüfen: Kostenloser Einsteiger-Guide 2026",
+      "es": "Cómo comprobar el contraste de color en una web: guía gratis para principiantes (2026)"
+    },
+    "description": {
+      "en": "Learn how to test text, buttons, and UI colors for readability using free contrast checkers and a simple step-by-step workflow.",
+      "ja": "無料のコントラストチェッカーを使って、文字、ボタン、UIカラーの読みやすさを確認する手順をわかりやすく解説します。",
+      "de": "Lernen Sie, wie Sie Text-, Button- und UI-Farben mit kostenlosen Kontrast-Tools Schritt für Schritt auf Lesbarkeit prüfen.",
+      "es": "Aprende a revisar texto, botones y colores de interfaz con comprobadores de contraste gratuitos y un flujo paso a paso."
+    },
+    "published": "2026-06-21",
+    "tags": [
+      "color",
+      "contrast",
+      "accessibility",
+      "design",
+      "tutorial"
+    ],
+    "linkTool": "exdreamcolors"
   }
 ]
