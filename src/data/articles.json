@@ -1195,5 +1195,30 @@
       "tutorial"
     ],
     "linkTool": "exdreamcolors"
+  },
+  {
+    "slug": "ai-tool-directories-software-discovery-2026",
+    "pillar": "trends",
+    "title": {
+      "en": "AI Tool Directories in 2026: How Software Discovery Is Changing",
+      "ja": "2026年のAIツールディレクトリ: ソフトウェア発見はどう変わるか",
+      "de": "KI-Tool-Verzeichnisse 2026: Wie sich Software-Discovery verändert",
+      "es": "Directorios de herramientas de IA en 2026: cómo cambia el descubrimiento de software"
+    },
+    "description": {
+      "en": "A practical look at why AI tool directories still matter, how users compare software now, and what directory pages need to rank and convert in 2026.",
+      "ja": "AIツールディレクトリがまだ重要な理由、ユーザーの比較行動の変化、2026年に順位と成約を取るページ作りを解説します。",
+      "de": "Warum KI-Tool-Verzeichnisse weiter wichtig sind, wie Nutzer Software vergleichen und welche Seiten 2026 ranken und konvertieren.",
+      "es": "Por qué los directorios de herramientas de IA siguen importando, cómo compara software la gente y qué páginas convierten en 2026."
+    },
+    "published": "2026-06-21",
+    "tags": [
+      "ai tools",
+      "software discovery",
+      "seo",
+      "directories",
+      "trends"
+    ],
+    "linkTool": null
   }
 ]
