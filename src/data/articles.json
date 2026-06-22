@@ -1220,5 +1220,30 @@
       "trends"
     ],
     "linkTool": null
+  },
+  {
+    "slug": "best-free-screenshot-tools",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best Free Screenshot Tools Compared (2026)",
+      "ja": "無料スクリーンショットツール比較 2026年版",
+      "de": "Die besten kostenlosen Screenshot-Tools im Vergleich (2026)",
+      "es": "Los mejores programas gratuitos para capturas de pantalla (2026)"
+    },
+    "description": {
+      "en": "We tested ShareX, Greenshot, Snipping Tool, Lightshot, Flameshot, and CleanShot alternatives to find the best free screenshot tool for fast captures, annotations, and team sharing.",
+      "ja": "ShareX、Greenshot、Snipping Tool、Lightshot、Flameshot などを比較。高速キャプチャ、注釈、共有に最適な無料スクリーンショットツールを見つけました。",
+      "de": "Wir haben ShareX, Greenshot, Snipping Tool, Lightshot, Flameshot und CleanShot-Alternativen getestet, um das beste kostenlose Screenshot-Tool für schnelle Aufnahmen, Markierungen und Team-Sharing zu finden.",
+      "es": "Probamos ShareX, Greenshot, Snipping Tool, Lightshot, Flameshot y alternativas a CleanShot para encontrar la mejor herramienta gratuita de capturas para rapidez, anotaciones y compartir en equipo."
+    },
+    "published": "2026-06-22",
+    "tags": [
+      "screenshot",
+      "screen-capture",
+      "comparison",
+      "productivity",
+      "design"
+    ],
+    "linkTool": null
   }
 ]
