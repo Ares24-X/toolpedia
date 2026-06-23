@@ -1295,5 +1295,30 @@
       "free-tools"
     ],
     "linkTool": null
+  },
+  {
+    "slug": "how-to-build-no-code-tool-stack-2026",
+    "pillar": "tutorials",
+    "title": {
+      "en": "How to Build a No-Code Tool Stack in 2026: A Practical Workflow",
+      "ja": "2026年版：ノーコードツールスタックの作り方 実践ワークフロー",
+      "de": "No-Code-Tool-Stack 2026 aufbauen: Ein praktischer Workflow",
+      "es": "Cómo crear un stack de herramientas no-code en 2026: flujo práctico"
+    },
+    "description": {
+      "en": "A step-by-step guide to choosing no-code tools for forms, databases, automation, design, and publishing without creating subscription chaos.",
+      "ja": "フォーム、データベース、自動化、デザイン、公開ツールを整理し、サブスク地獄を避けるための実践ガイドです。",
+      "de": "Eine Schritt-für-Schritt-Anleitung für Formulare, Datenbanken, Automatisierung, Design und Publishing ohne Abo-Chaos.",
+      "es": "Guía paso a paso para elegir herramientas no-code de formularios, bases de datos, automatización, diseño y publicación sin caos de suscripciones."
+    },
+    "published": "2026-06-23",
+    "tags": [
+      "no-code",
+      "automation",
+      "productivity",
+      "tutorial",
+      "workflow"
+    ],
+    "linkTool": null
   }
 ]
