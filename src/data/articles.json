@@ -1245,5 +1245,55 @@
       "design"
     ],
     "linkTool": null
+  },
+  {
+    "slug": "best-free-background-remover-tools",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best Free Background Remover Tools Compared (2026)",
+      "ja": "無料背景除去ツール比較 2026年版",
+      "de": "Die besten kostenlosen Hintergrund-Entferner im Vergleich (2026)",
+      "es": "Los mejores eliminadores de fondo gratuitos comparados (2026)"
+    },
+    "description": {
+      "en": "We tested remove.bg, PhotoRoom, Canva, Pixlr, and other AI background removers with product photos, portraits, and complex images to find the best free option.",
+      "ja": "remove.bg、PhotoRoom、Canva、Pixlrなど人気のAI背景除去ツールを商品写真やポートレートで検証。最適な無料ツールを紹介します。",
+      "de": "Wir haben remove.bg, PhotoRoom, Canva, Pixlr und andere KI-Hintergrund-Entferner mit Produktfotos, Porträts und komplexen Bildern getestet.",
+      "es": "Probamos remove.bg, PhotoRoom, Canva, Pixlr y otros eliminadores de fondo con IA usando fotos de productos, retratos e imágenes complejas."
+    },
+    "published": "2026-06-23",
+    "tags": [
+      "background-remover",
+      "image-editing",
+      "ai",
+      "comparison",
+      "design"
+    ],
+    "linkTool": null
+  },
+  {
+    "slug": "best-free-online-photo-editors",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best Free Online Photo Editors Compared (2026)",
+      "ja": "無料オンライン写真編集ツール比較 2026年版",
+      "de": "Die besten kostenlosen Online-Foto-Editoren im Vergleich (2026)",
+      "es": "Los mejores editores de fotos online gratuitos comparados (2026)"
+    },
+    "description": {
+      "en": "We tested Photopea, Pixlr, Canva, Fotor, and other free online photo editors for real editing tasks. Here's which one actually replaces Photoshop.",
+      "ja": "Photopea、Pixlr、Canva、Fotorなど無料オンライン写真編集ツールを実際の編集作業でテスト。Photoshopの代替になるのはどれか検証しました。",
+      "de": "Wir haben Photopea, Pixlr, Canva, Fotor und andere kostenlose Online-Foto-Editoren bei echten Bearbeitungsaufgaben getestet. Welcher ersetzt Photoshop wirklich?",
+      "es": "Probamos Photopea, Pixlr, Canva, Fotor y otros editores de fotos gratuitos en tareas reales de edición. Descubre cuál reemplaza realmente a Photoshop."
+    },
+    "published": "2026-06-23",
+    "tags": [
+      "photo-editor",
+      "image-editing",
+      "comparison",
+      "design",
+      "free-tools"
+    ],
+    "linkTool": null
   }
 ]
