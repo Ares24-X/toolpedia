@@ -1320,5 +1320,30 @@
       "workflow"
     ],
     "linkTool": null
+  },
+  {
+    "slug": "best-free-mind-mapping-tools",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best Free Mind Mapping Tools Compared (2026)",
+      "ja": "無料マインドマップツール比較 2026年版",
+      "de": "Beste kostenlose Mind-Mapping-Tools im Vergleich (2026)",
+      "es": "Mejores herramientas gratuitas de mapas mentales comparadas (2026)"
+    },
+    "description": {
+      "en": "We tested 7 free mind mapping tools for brainstorming, project planning, and note-taking. Here's which ones actually work without paywalls.",
+      "ja": "ブレインストーミング、プロジェクト計画、ノート整理に使える無料マインドマップツール7選を実際にテストしました。",
+      "de": "Wir haben 7 kostenlose Mind-Mapping-Tools für Brainstorming, Projektplanung und Notizen getestet. Hier sind die Ergebnisse.",
+      "es": "Probamos 7 herramientas gratuitas de mapas mentales para lluvia de ideas, planificación y notas. Estas son las que realmente funcionan."
+    },
+    "published": "2026-06-24",
+    "tags": [
+      "mind-mapping",
+      "productivity",
+      "brainstorming",
+      "free-tools",
+      "reviews"
+    ],
+    "linkTool": null
   }
 ]
