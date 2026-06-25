@@ -1345,5 +1345,30 @@
       "reviews"
     ],
     "linkTool": null
+  },
+  {
+    "slug": "best-free-online-whiteboard-tools",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best Free Online Whiteboard Tools for Remote Collaboration (2026)",
+      "ja": "リモートコラボレーション向け無料オンラインホワイトボード比較 2026年版",
+      "de": "Beste kostenlose Online-Whiteboard-Tools für Remote-Zusammenarbeit (2026)",
+      "es": "Mejores herramientas de pizarra online gratuitas para colaboración remota (2026)"
+    },
+    "description": {
+      "en": "We tested Excalidraw, tldraw, Miro Free, FigJam, and other whiteboard tools for real team workflows. Here's what works without paying.",
+      "ja": "Excalidraw、tldraw、Miro Free、FigJamなどを実際のチームワークフローでテスト。無料で使えるホワイトボードツールを検証しました。",
+      "de": "Wir haben Excalidraw, tldraw, Miro Free, FigJam und andere Whiteboard-Tools in echten Team-Workflows getestet. Das funktioniert kostenlos.",
+      "es": "Probamos Excalidraw, tldraw, Miro Free, FigJam y otras pizarras en flujos de trabajo reales. Esto es lo que funciona sin pagar."
+    },
+    "published": "2026-06-25",
+    "tags": [
+      "whiteboard",
+      "collaboration",
+      "remote-work",
+      "free-tools",
+      "reviews"
+    ],
+    "linkTool": null
   }
 ]
