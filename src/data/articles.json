@@ -1370,5 +1370,30 @@
       "reviews"
     ],
     "linkTool": null
+  },
+  {
+    "slug": "best-free-video-editing-tools-beginners",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best Free Video Editing Tools for Beginners (2026)",
+      "ja": "初心者向け無料動画編集ツール比較 2026年版",
+      "de": "Beste kostenlose Videobearbeitungstools für Einsteiger (2026)",
+      "es": "Mejores herramientas gratuitas de edición de video para principiantes (2026)"
+    },
+    "description": {
+      "en": "We tested CapCut, DaVinci Resolve, Shotcut, Clipchamp, and OpenShot for basic editing workflows. Here's which free editor matches your skill level.",
+      "ja": "CapCut、DaVinci Resolve、Shotcut、Clipchamp、OpenShotを基本的な編集ワークフローでテスト。スキルレベル別のおすすめを紹介します。",
+      "de": "Wir haben CapCut, DaVinci Resolve, Shotcut, Clipchamp und OpenShot für einfache Bearbeitungsabläufe getestet. Welcher Editor passt zu Ihrem Level?",
+      "es": "Probamos CapCut, DaVinci Resolve, Shotcut, Clipchamp y OpenShot para edición básica. Descubre cuál se adapta a tu nivel."
+    },
+    "published": "2026-06-26",
+    "tags": [
+      "video-editing",
+      "free-tools",
+      "beginners",
+      "reviews",
+      "content-creation"
+    ],
+    "linkTool": null
   }
 ]
