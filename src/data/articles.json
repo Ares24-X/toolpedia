@@ -1395,5 +1395,30 @@
       "content-creation"
     ],
     "linkTool": null
+  },
+  {
+    "slug": "how-to-create-content-calendar-free-tools-2026",
+    "pillar": "tutorials",
+    "title": {
+      "en": "How to Build a Content Calendar with Free Tools in 2026",
+      "ja": "2026年版：無料ツールでコンテンツカレンダーを作る方法",
+      "de": "Content-Kalender mit kostenlosen Tools erstellen: Leitfaden 2026",
+      "es": "Cómo crear un calendario de contenidos con herramientas gratuitas en 2026"
+    },
+    "description": {
+      "en": "A practical workflow for planning blog posts, social content, newsletters, and launches without paying for a heavy marketing suite.",
+      "ja": "ブログ、SNS、ニュースレター、ローンチ計画を高額なマーケティングツールなしで整理する実践ワークフローです。",
+      "de": "Ein praktischer Workflow für Blogposts, Social Content, Newsletter und Launches ohne teure Marketing-Suite.",
+      "es": "Un flujo práctico para planificar blogs, redes sociales, newsletters y lanzamientos sin pagar una suite de marketing pesada."
+    },
+    "published": "2026-06-27",
+    "tags": [
+      "content-calendar",
+      "productivity",
+      "marketing",
+      "tutorial",
+      "free-tools"
+    ],
+    "linkTool": null
   }
 ]
