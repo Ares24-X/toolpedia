@@ -1445,5 +1445,55 @@
       "surveys"
     ],
     "linkTool": null
+  },
+  {
+    "slug": "best-free-infographic-makers",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best Free Infographic Makers Compared (2026)",
+      "ja": "無料インフォグラフィック作成ツール比較レビュー（2026年版）",
+      "de": "Beste kostenlose Infografik-Tools im Vergleich (2026)",
+      "es": "Mejores herramientas gratuitas para crear infografías comparadas (2026)"
+    },
+    "description": {
+      "en": "We tested 6 free infographic makers for data visualization, reports, and social media. Here's which one delivers the best templates and export options without paying.",
+      "ja": "データの可視化、レポート、SNS投稿用に使える無料インフォグラフィック作成ツール6つを実際にテストし、テンプレートの質や出力形式を比較しました。",
+      "de": "Wir haben 6 kostenlose Infografik-Tools für Datenvisualisierung, Berichte und Social Media getestet. Hier ist unser Vergleich der Vorlagen und Exportoptionen.",
+      "es": "Probamos 6 herramientas gratuitas para crear infografías orientadas a visualización de datos, informes y redes sociales. Aquí va nuestra comparativa."
+    },
+    "published": "2026-06-30",
+    "tags": [
+      "infographics",
+      "design",
+      "reviews",
+      "free-tools",
+      "data-visualization"
+    ],
+    "linkTool": null
+  },
+  {
+    "slug": "best-free-online-svg-editors",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best Free Online SVG Editors Compared (2026)",
+      "ja": "無料オンラインSVGエディタ比較レビュー（2026年版）",
+      "de": "Beste kostenlose Online-SVG-Editoren im Vergleich (2026)",
+      "es": "Mejores editores SVG online gratuitos comparados (2026)"
+    },
+    "description": {
+      "en": "We tested 7 free online SVG editors for icon design, logo work, and web graphics. Here's how they compare on features, export quality, and ease of use.",
+      "ja": "アイコンデザイン、ロゴ制作、Web用グラフィック向けの無料オンラインSVGエディタ7つを実際にテストし、機能・出力品質・使いやすさを比較しました。",
+      "de": "Wir haben 7 kostenlose Online-SVG-Editoren für Icon-Design, Logo-Arbeit und Web-Grafiken getestet. So schneiden sie bei Funktionen, Exportqualität und Bedienung ab.",
+      "es": "Probamos 7 editores SVG online gratuitos para diseño de iconos, logos y gráficos web. Así se comparan en funciones, calidad de exportación y facilidad de uso."
+    },
+    "published": "2026-06-30",
+    "tags": [
+      "svg",
+      "design",
+      "reviews",
+      "free-tools",
+      "vector-graphics"
+    ],
+    "linkTool": null
   }
 ]
