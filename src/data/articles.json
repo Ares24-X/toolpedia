@@ -1495,5 +1495,30 @@
       "vector-graphics"
     ],
     "linkTool": null
+  },
+  {
+    "slug": "best-free-time-tracking-tools-freelancers",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best Free Time Tracking Tools for Freelancers (2026)",
+      "ja": "フリーランス向け無料タイムトラッキングツール比較（2026年版）",
+      "de": "Beste kostenlose Zeiterfassungstools für Freelancer (2026)",
+      "es": "Mejores herramientas gratuitas de seguimiento de tiempo para freelancers (2026)"
+    },
+    "description": {
+      "en": "We tested 8 free time tracking tools on real freelance projects. Here's how Toggl Track, Clockify, and alternatives compare for invoicing, reporting, and daily workflow.",
+      "ja": "実際のフリーランスプロジェクトで無料タイムトラッキングツール8つをテストし、請求書作成・レポート・日常ワークフローの観点から比較しました。",
+      "de": "Wir haben 8 kostenlose Zeiterfassungstools in echten Freelancer-Projekten getestet. So schneiden Toggl Track, Clockify und Alternativen bei Rechnungsstellung, Berichten und Arbeitsablauf ab.",
+      "es": "Probamos 8 herramientas gratuitas de seguimiento de tiempo en proyectos freelance reales. Así se comparan Toggl Track, Clockify y alternativas en facturación, reportes y flujo de trabajo."
+    },
+    "published": "2026-07-01",
+    "tags": [
+      "time-tracking",
+      "freelance",
+      "reviews",
+      "free-tools",
+      "productivity"
+    ],
+    "linkTool": null
   }
 ]
