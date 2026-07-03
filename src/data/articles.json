@@ -1545,5 +1545,30 @@
       "workflow"
     ],
     "linkTool": null
+  },
+  {
+    "slug": "how-to-password-protect-pdf-free",
+    "pillar": "pdf",
+    "title": {
+      "en": "How to Password Protect PDF Files for Free (2026)",
+      "ja": "PDFにパスワードを無料でかける方法（2026年版）",
+      "de": "PDF-Dateien kostenlos mit Passwort schützen (2026)",
+      "es": "Cómo proteger archivos PDF con contraseña gratis (2026)"
+    },
+    "description": {
+      "en": "Step-by-step guide to password protecting PDF files using free online tools, desktop apps, and browser-based methods — no paid software required.",
+      "ja": "無料オンラインツール、デスクトップアプリ、ブラウザを使ってPDFにパスワードをかける手順を解説。有料ソフト不要。",
+      "de": "Schritt-für-Schritt-Anleitung zum kostenlosen Passwortschutz von PDFs mit Online-Tools, Desktop-Apps und Browser-Methoden.",
+      "es": "Guía paso a paso para proteger PDFs con contraseña usando herramientas gratuitas en línea, aplicaciones de escritorio y métodos basados en navegador."
+    },
+    "published": "2026-07-03",
+    "tags": [
+      "pdf",
+      "password-protect",
+      "tutorial",
+      "free-tools",
+      "security"
+    ],
+    "linkTool": "pixelpdf.win"
   }
 ]
