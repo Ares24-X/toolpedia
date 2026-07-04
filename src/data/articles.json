@@ -1570,5 +1570,30 @@
       "security"
     ],
     "linkTool": "pixelpdf.win"
+  },
+  {
+    "slug": "best-free-ai-image-upscalers",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best Free AI Image Upscalers Compared (2026)",
+      "ja": "無料AIイメージアップスケーラー比較レビュー（2026年版）",
+      "de": "Beste kostenlose KI-Bild-Upscaler im Vergleich (2026)",
+      "es": "Mejores herramientas gratuitas de upscaling de imágenes con IA (2026)"
+    },
+    "description": {
+      "en": "We tested 7 free AI image upscalers on photos, illustrations, and low-res screenshots. Here's how Upscayl, Bigjpg, waifu2x, and others compare for quality, speed, and batch processing.",
+      "ja": "写真・イラスト・低解像度スクリーンショットで無料AIアップスケーラー7つをテスト。Upscayl、Bigjpg、waifu2xなどの画質・速度・バッチ処理を比較しました。",
+      "de": "Wir haben 7 kostenlose KI-Bild-Upscaler mit Fotos, Illustrationen und Screenshots getestet. So schneiden Upscayl, Bigjpg, waifu2x und andere bei Qualität, Geschwindigkeit und Stapelverarbeitung ab.",
+      "es": "Probamos 7 herramientas gratuitas de upscaling con IA en fotos, ilustraciones y capturas de pantalla. Así se comparan Upscayl, Bigjpg, waifu2x y otros en calidad, velocidad y procesamiento por lotes."
+    },
+    "published": "2026-07-04",
+    "tags": [
+      "ai-upscaler",
+      "image-quality",
+      "reviews",
+      "free-tools",
+      "design"
+    ],
+    "linkTool": null
   }
 ]
