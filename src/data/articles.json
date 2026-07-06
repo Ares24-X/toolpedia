@@ -1620,5 +1620,30 @@
       "productivity"
     ],
     "linkTool": null
+  },
+  {
+    "slug": "best-free-ai-transcription-tools",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best Free AI Transcription Tools Compared (2026)",
+      "ja": "無料AI文字起こしツール比較（2026年版）",
+      "de": "Beste kostenlose KI-Transkriptionstools im Vergleich (2026)",
+      "es": "Mejores herramientas gratuitas de transcripción con IA comparadas (2026)"
+    },
+    "description": {
+      "en": "We tested 7 free AI transcription tools for meetings, interviews, and podcasts. Here's how Whisper, Otter.ai, Google Recorder, Notta, and others compare on accuracy, language support, and export options.",
+      "ja": "会議、インタビュー、ポッドキャスト向けに無料AI文字起こしツール7つをテスト。Whisper、Otter.ai、Googleレコーダー、Nottaなどの精度・言語対応・エクスポート機能を比較しました。",
+      "de": "Wir haben 7 kostenlose KI-Transkriptionstools für Meetings, Interviews und Podcasts getestet. So schneiden Whisper, Otter.ai, Google Recorder, Notta und andere bei Genauigkeit, Sprachunterstützung und Export ab.",
+      "es": "Probamos 7 herramientas gratuitas de transcripción con IA para reuniones, entrevistas y podcasts. Así se comparan Whisper, Otter.ai, Google Recorder, Notta y otras en precisión, idiomas y exportación."
+    },
+    "published": "2026-07-06",
+    "tags": [
+      "transcription",
+      "ai",
+      "reviews",
+      "free-tools",
+      "productivity"
+    ],
+    "linkTool": null
   }
 ]
