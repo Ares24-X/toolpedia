@@ -1645,5 +1645,30 @@
       "productivity"
     ],
     "linkTool": null
+  },
+  {
+    "slug": "best-free-electronic-signature-tools",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best Free Electronic Signature Tools Compared (2026)",
+      "ja": "無料電子署名ツール比較（2026年版）",
+      "de": "Beste kostenlose E-Signatur-Tools im Vergleich (2026)",
+      "es": "Mejores herramientas gratuitas de firma electrónica comparadas (2026)"
+    },
+    "description": {
+      "en": "We tested 8 free electronic signature tools for contracts, agreements, and everyday documents. Here's how DocuSign Free, HelloSign, Smallpdf Sign, and others compare on ease of use, security, and signing limits.",
+      "ja": "契約書や日常文書向けに無料電子署名ツール8つをテスト。DocuSign Free、HelloSign、Smallpdf Signなどの使いやすさ・セキュリティ・署名数制限を比較しました。",
+      "de": "Wir haben 8 kostenlose E-Signatur-Tools für Verträge und Dokumente getestet. So schneiden DocuSign Free, HelloSign, Smallpdf Sign und andere bei Bedienung, Sicherheit und Signaturlimits ab.",
+      "es": "Probamos 8 herramientas gratuitas de firma electrónica para contratos y documentos. Así se comparan DocuSign Free, HelloSign, Smallpdf Sign y otras en facilidad de uso, seguridad y límites de firma."
+    },
+    "published": "2026-07-09",
+    "tags": [
+      "e-signature",
+      "pdf",
+      "reviews",
+      "free-tools",
+      "productivity"
+    ],
+    "linkTool": null
   }
 ]
