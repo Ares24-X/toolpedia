@@ -1670,5 +1670,30 @@
       "productivity"
     ],
     "linkTool": null
+  },
+  {
+    "slug": "best-free-project-management-tools-small-teams",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best Free Project Management Tools for Small Teams (2026)",
+      "ja": "小規模チーム向け無料プロジェクト管理ツール比較（2026年版）",
+      "de": "Beste kostenlose Projektmanagement-Tools für kleine Teams (2026)",
+      "es": "Mejores herramientas gratuitas de gestión de proyectos para equipos pequeños (2026)"
+    },
+    "description": {
+      "en": "We tested 9 free project management tools with a 5-person team over 4 weeks. Here's how Trello, Notion, Asana, ClickUp, and others compare on task limits, integrations, and real-world usability.",
+      "ja": "5人チームで4週間、無料プロジェクト管理ツール9つを実際に使い比較。Trello、Notion、Asana、ClickUpなどのタスク制限・連携・使いやすさを検証しました。",
+      "de": "Wir haben 9 kostenlose Projektmanagement-Tools mit einem 5-köpfigen Team über 4 Wochen getestet. So schneiden Trello, Notion, Asana, ClickUp und andere bei Aufgabenlimits, Integrationen und Praxistauglichkeit ab.",
+      "es": "Probamos 9 herramientas gratuitas de gestión de proyectos con un equipo de 5 personas durante 4 semanas. Así se comparan Trello, Notion, Asana, ClickUp y otras en límites de tareas, integraciones y usabilidad real."
+    },
+    "published": "2026-07-10",
+    "tags": [
+      "project-management",
+      "reviews",
+      "free-tools",
+      "productivity",
+      "small-teams"
+    ],
+    "linkTool": null
   }
 ]
