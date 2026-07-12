@@ -1720,5 +1720,29 @@
       "developer-tools"
     ],
     "linkTool": "exdreamcolors"
+  },
+  {
+    "slug": "best-free-pdf-to-excel-converters",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best Free PDF to Excel Converters Tested (2026)",
+      "ja": "PDF→Excel変換ツール無料おすすめ6選（2026年版）",
+      "de": "Die besten kostenlosen PDF-zu-Excel-Konverter im Test (2026)",
+      "es": "Los mejores conversores gratuitos de PDF a Excel (2026)"
+    },
+    "description": {
+      "en": "We tested 10+ PDF to Excel converters with real invoices, tables, and reports. Here are the 6 that kept formatting intact.",
+      "ja": "請求書や表を使って10以上のPDF→Excel変換ツールをテスト。レイアウトを維持できた6ツールを紹介。",
+      "de": "Wir haben 10+ PDF-zu-Excel-Konverter mit echten Rechnungen und Tabellen getestet. Diese 6 behalten das Layout bei.",
+      "es": "Probamos más de 10 conversores de PDF a Excel con facturas y tablas reales. Estos 6 mantienen el formato."
+    },
+    "published": "2026-07-12",
+    "tags": [
+      "pdf",
+      "excel",
+      "converter",
+      "comparison"
+    ],
+    "linkTool": "pixelpdf"
   }
 ]
