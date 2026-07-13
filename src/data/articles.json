@@ -1744,5 +1744,30 @@
       "comparison"
     ],
     "linkTool": "pixelpdf"
+  },
+  {
+    "slug": "best-free-batch-image-resizers",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best Free Batch Image Resizers for Web and Social Media (2026)",
+      "ja": "Web・SNS向け無料一括画像リサイズツール おすすめ6選（2026年版）",
+      "de": "Die besten kostenlosen Batch-Bildverkleinerer für Web und Social Media (2026)",
+      "es": "Los mejores redimensionadores de imágenes en lote gratuitos para web y redes sociales (2026)"
+    },
+    "description": {
+      "en": "We tested 8 free batch image resizers with 200+ photos. These 6 tools handled bulk resizing for web, email, and social without quality loss.",
+      "ja": "200枚以上の写真で8つの無料一括リサイズツールをテスト。Web・メール・SNS用に品質を落とさずリサイズできた6ツールを紹介。",
+      "de": "Wir haben 8 kostenlose Batch-Bildverkleinerer mit über 200 Fotos getestet. Diese 6 Tools meistern Massenverkleinerung ohne Qualitätsverlust.",
+      "es": "Probamos 8 redimensionadores en lote gratuitos con más de 200 fotos. Estos 6 manejan el cambio masivo de tamaño sin pérdida de calidad."
+    },
+    "published": "2026-07-13",
+    "tags": [
+      "image",
+      "resizer",
+      "batch",
+      "comparison",
+      "web-optimization"
+    ],
+    "linkTool": "pixelpdf"
   }
 ]
