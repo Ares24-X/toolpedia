@@ -1769,5 +1769,30 @@
       "web-optimization"
     ],
     "linkTool": "pixelpdf"
+  },
+  {
+    "slug": "best-free-online-ocr-tools",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best Free Online OCR Tools for Text Extraction (2026)",
+      "ja": "無料OCRツールおすすめ6選：画像・PDFからテキスト抽出（2026年版）",
+      "de": "Die besten kostenlosen Online-OCR-Tools zur Texterkennung (2026)",
+      "es": "Las mejores herramientas OCR en línea gratuitas para extraer texto (2026)"
+    },
+    "description": {
+      "en": "We tested 10 free OCR tools with scanned documents, handwritten notes, and multi-language PDFs. These 6 delivered the most accurate text extraction without signup.",
+      "ja": "スキャン文書・手書きメモ・多言語PDFで10個の無料OCRツールをテスト。登録不要で高精度なテキスト抽出ができた6ツールを紹介。",
+      "de": "Wir haben 10 kostenlose OCR-Tools mit gescannten Dokumenten, handschriftlichen Notizen und mehrsprachigen PDFs getestet. Diese 6 lieferten die genaueste Texterkennung ohne Anmeldung.",
+      "es": "Probamos 10 herramientas OCR gratuitas con documentos escaneados, notas manuscritas y PDFs multilingües. Estas 6 ofrecieron la extracción de texto más precisa sin registro."
+    },
+    "published": "2026-07-14",
+    "tags": [
+      "ocr",
+      "pdf",
+      "text-extraction",
+      "comparison",
+      "productivity"
+    ],
+    "linkTool": "pixelpdf"
   }
 ]
