@@ -1794,5 +1794,29 @@
       "productivity"
     ],
     "linkTool": "pixelpdf"
+  },
+  {
+    "slug": "best-free-large-file-transfer-tools",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best Free Large File Transfer Tools Compared (2026)",
+      "ja": "大容量ファイル転送ツール比較：2026年版無料おすすめ6選",
+      "de": "Die besten kostenlosen Tools für große Dateiübertragungen (2026)",
+      "es": "Mejores herramientas gratuitas para enviar archivos grandes (2026)"
+    },
+    "description": {
+      "en": "Need to send files over 2GB? We tested 6 free large file transfer services for speed, limits, and privacy.",
+      "ja": "2GB以上のファイルを送りたい？速度・容量・プライバシーの観点から6つの無料サービスを検証。",
+      "de": "Dateien über 2 GB versenden? Wir haben 6 kostenlose Dienste auf Geschwindigkeit, Limits und Datenschutz getestet.",
+      "es": "¿Necesitas enviar archivos de más de 2 GB? Probamos 6 servicios gratuitos en velocidad, límites y privacidad."
+    },
+    "published": "2026-07-15",
+    "tags": [
+      "file-transfer",
+      "large-files",
+      "comparison",
+      "privacy"
+    ],
+    "linkTool": null
   }
 ]
