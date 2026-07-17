@@ -1842,5 +1842,29 @@
       "writing-tools"
     ],
     "linkTool": null
+  },
+  {
+    "slug": "best-free-markdown-editors",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best Free Markdown Editors for Writers and Developers (2026)",
+      "ja": "無料マークダウンエディタ比較：ライター＆開発者向けおすすめ7選（2026年）",
+      "de": "Die besten kostenlosen Markdown-Editoren für Autoren und Entwickler (2026)",
+      "es": "Mejores editores Markdown gratuitos para escritores y desarrolladores (2026)"
+    },
+    "description": {
+      "en": "We tested 7 free Markdown editors across writing, coding, and note-taking workflows. Here's which ones handle real work without getting in the way.",
+      "ja": "執筆・コーディング・ノート整理の3ワークフローで7つの無料マークダウンエディタを検証。実作業で邪魔にならないのはどれか。",
+      "de": "Wir haben 7 kostenlose Markdown-Editoren für Schreiben, Coding und Notizen getestet. Welche stören nicht bei der echten Arbeit?",
+      "es": "Probamos 7 editores Markdown gratuitos en flujos de escritura, código y notas. Descubre cuáles no estorban en el trabajo real."
+    },
+    "published": "2026-07-17",
+    "tags": [
+      "markdown",
+      "writing-tools",
+      "developer-tools",
+      "comparison"
+    ],
+    "linkTool": null
   }
 ]
