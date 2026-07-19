@@ -1866,5 +1866,29 @@
       "comparison"
     ],
     "linkTool": null
+  },
+  {
+    "slug": "best-free-online-video-compressors",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best Free Online Video Compressors Tested (2026)",
+      "ja": "無料オンライン動画圧縮ツール比較：実測テストで選ぶおすすめ6選（2026年）",
+      "de": "Die besten kostenlosen Online-Videokompressoren im Test (2026)",
+      "es": "Mejores compresores de video online gratuitos probados (2026)"
+    },
+    "description": {
+      "en": "We compressed the same 4K video through 6 free online tools and measured output quality, file size reduction, and speed. Here's what actually works without watermarks or hidden limits.",
+      "ja": "同じ4K動画を6つの無料オンラインツールで圧縮し、画質・ファイルサイズ・速度を実測比較。透かしや隠れた制限なしで使えるツールはどれか。",
+      "de": "Wir haben dasselbe 4K-Video mit 6 kostenlosen Online-Tools komprimiert und Qualität, Größenreduktion und Geschwindigkeit gemessen. Was funktioniert ohne Wasserzeichen?",
+      "es": "Comprimimos el mismo video 4K con 6 herramientas online gratuitas y medimos calidad, reducción de tamaño y velocidad. Esto es lo que realmente funciona sin marcas de agua."
+    },
+    "published": "2026-07-19",
+    "tags": [
+      "video",
+      "compression",
+      "free-tools",
+      "comparison"
+    ],
+    "linkTool": null
   }
 ]
