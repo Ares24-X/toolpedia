@@ -1914,5 +1914,29 @@
       "comparison"
     ],
     "linkTool": null
+  },
+  {
+    "slug": "best-free-website-speed-test-tools",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best Free Website Speed Test Tools Compared (2026)",
+      "ja": "無料Webサイト速度テストツール比較：実測で選ぶおすすめ6選（2026年）",
+      "de": "Die besten kostenlosen Website-Geschwindigkeitstests im Vergleich (2026)",
+      "es": "Mejores herramientas gratuitas para medir la velocidad web comparadas (2026)"
+    },
+    "description": {
+      "en": "We ran the same 5 websites through 6 free speed test tools and compared their metrics, accuracy, and actionable recommendations. Here's which ones give useful results versus vanity scores.",
+      "ja": "同じ5サイトを6つの無料速度テストツールで計測し、指標の精度と改善提案の実用性を比較。見かけのスコアではなく実際に役立つツールはどれか。",
+      "de": "Wir haben 5 Websites mit 6 kostenlosen Speed-Test-Tools geprüft und Metriken, Genauigkeit und praktische Empfehlungen verglichen. Welche liefern wirklich nützliche Ergebnisse?",
+      "es": "Probamos 5 sitios web con 6 herramientas gratuitas de velocidad y comparamos métricas, precisión y recomendaciones prácticas. ¿Cuáles dan resultados útiles de verdad?"
+    },
+    "published": "2026-07-23",
+    "tags": [
+      "performance",
+      "web-development",
+      "free-tools",
+      "comparison"
+    ],
+    "linkTool": null
   }
 ]
