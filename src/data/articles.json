@@ -2037,5 +2037,31 @@
       "multimedia"
     ],
     "linkTool": null
+  },
+  {
+    "slug": "best-free-ai-workflow-automation-tools",
+    "pillar": "reviews",
+    "title": {
+      "en": "Best Free AI Workflow Automation Tools Compared (2026)",
+      "ja": "無料AIワークフロー自動化ツール比較：どれが最適？（2026年）",
+      "de": "Beste kostenlose KI-Workflow-Automatisierungstools im Vergleich (2026)",
+      "es": "Mejores herramientas gratuitas de automatización con IA comparadas (2026)"
+    },
+    "description": {
+      "en": "We tested 6 free AI workflow automation tools on ease of use, AI capabilities, integrations, and free tier limits. Here's which ones deliver real value without forcing an upgrade.",
+      "ja": "6つの無料AIワークフロー自動化ツールを、使いやすさ・AI機能・連携数・無料枠の制限で検証。アップグレードなしで本当に使えるツールを紹介します。",
+      "de": "Wir haben 6 kostenlose KI-Workflow-Automatisierungstools auf Benutzerfreundlichkeit, KI-Funktionen, Integrationen und Free-Tier-Limits getestet. Hier erfahren Sie, welche ohne Upgrade echten Mehrwert bieten.",
+      "es": "Probamos 6 herramientas gratuitas de automatización con IA evaluando facilidad de uso, capacidades de IA, integraciones y límites del plan gratuito. Descubre cuáles ofrecen valor real sin obligarte a pagar."
+    },
+    "published": "2026-07-28",
+    "tags": [
+      "ai",
+      "automation",
+      "workflow",
+      "free-tools",
+      "comparison",
+      "productivity"
+    ],
+    "linkTool": null
   }
 ]
